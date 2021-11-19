@@ -1,0 +1,1178 @@
+[540] [INFO] EXTRACTION STARTING at 11/19/2021 11:05:58
+[540] [INFO]   Extractor: C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\win64\Semmle.Extraction.CSharp.Driver.dll
+[540] [INFO]   Extractor version:  (4b82840e9df0db82d9bf23fb88f23661072ef766)
+[540] [INFO]   Current working directory: C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement
+[540] [INFO]   Arguments to Roslyn: /noconfig @C:\Users\PENTES~1\AppData\Local\Temp\Sem6D99.tmp
+[540] [INFO]   Arguments have been written to C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\log\csharp.8ba0babc49b9c590c5bc089eafb95bb44f98bf4af9e18a803eeb5471dac4322a.txt
+[540] [INFO]   Models constructed in 00:00:09.1253838
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.design\2.0.1\lib\netcoreapp2.0\dotnet-aspnet-codegenerator-design.dll (00:00:00.3694039)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.applicationinsights.dependencycollector\2.4.1\lib\netstandard1.6\Microsoft.AI.DependencyCollector.dll (00:00:00.0779532)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.design\2.0.1\lib\netcoreapp2.0\dotnet-aspnet-codegenerator-design.dll (00:00:00.2364328)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.applicationinsights.dependencycollector\2.4.1\lib\netstandard1.6\Microsoft.AI.DependencyCollector.dll (00:00:00.1533662)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.applicationinsights.aspnetcore\2.1.1\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll (00:00:00.0831775)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.applicationinsights.aspnetcore\2.1.1\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll (00:00:00.1073111)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.applicationinsights\2.4.0\lib\netstandard1.3\Microsoft.ApplicationInsights.dll (00:00:00.2940787)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.applicationinsights\2.4.0\lib\netstandard1.3\Microsoft.ApplicationInsights.dll (00:00:00.3571597)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.antiforgery\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Antiforgery.dll (00:00:00.1227724)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.applicationinsights.hostingstartup\2.0.1\lib\netcoreapp2.0\Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll (00:00:00.0085255)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.applicationinsights.hostingstartup\2.0.1\lib\netcoreapp2.0\Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll (00:00:00.0055946)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.antiforgery\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Antiforgery.dll (00:00:00.0663423)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll (00:00:00.0570855)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll (00:00:00.0616729)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.core\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Core.dll (00:00:00.0266099)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.core\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Core.dll (00:00:00.0522036)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.cookies\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Cookies.dll (00:00:00.1077472)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.facebook\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Facebook.dll (00:00:00.0157178)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.facebook\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Facebook.dll (00:00:00.0262575)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.cookies\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Cookies.dll (00:00:00.1085893)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.dll (00:00:00.1251043)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.dll (00:00:00.1268594)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.google\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Google.dll (00:00:00.0405293)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.google\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Google.dll (00:00:00.0186704)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.microsoftaccount\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll (00:00:00.0139351)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.microsoftaccount\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll (00:00:00.0588341)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.jwtbearer\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll (00:00:00.0625720)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.jwtbearer\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll (00:00:00.0751922)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.oauth\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.OAuth.dll (00:00:00.0816361)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.oauth\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.OAuth.dll (00:00:00.0778103)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.openidconnect\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll (00:00:00.2178316)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.openidconnect\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll (00:00:00.1558027)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.twitter\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Twitter.dll (00:00:00.0298394)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authentication.twitter\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Twitter.dll (00:00:00.0532371)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authorization.policy\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.Policy.dll (00:00:00.0104729)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authorization.policy\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.Policy.dll (00:00:00.0074294)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authorization\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.dll (00:00:00.0507856)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.authorization\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.dll (00:00:00.0548561)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.azureappservices.hostingstartup\2.0.1\lib\netcoreapp2.0\Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll (00:00:00.0077417)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.azureappservices.hostingstartup\2.0.1\lib\netcoreapp2.0\Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll (00:00:00.0026537)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.azureappservicesintegration\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.AzureAppServicesIntegration.dll (00:00:00.0047021)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.azureappservicesintegration\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.AzureAppServicesIntegration.dll (00:00:00.0026938)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cookiepolicy\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.CookiePolicy.dll (00:00:00.0205677)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cookiepolicy\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.CookiePolicy.dll (00:00:00.0245268)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cors\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Cors.dll (00:00:00.0262228)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cors\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Cors.dll (00:00:00.0587318)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cryptography.internal\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.Internal.dll (00:00:00.0421477)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cryptography.keyderivation\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll (00:00:00.0541395)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cryptography.internal\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.Internal.dll (00:00:00.0885679)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.cryptography.keyderivation\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll (00:00:00.0352893)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll (00:00:00.0151577)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll (00:00:00.0278555)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection.azurestorage\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.AzureStorage.dll (00:00:00.0407262)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection.azurestorage\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.AzureStorage.dll (00:00:00.0619096)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection.extensions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.Extensions.dll (00:00:00.0429510)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection.extensions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.Extensions.dll (00:00:00.0434506)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.diagnostics.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll (00:00:00.0212908)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.diagnostics.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll (00:00:00.0191682)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.dll (00:00:00.2118217)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.dataprotection\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.dll (00:00:00.2550819)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.diagnostics\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Diagnostics.dll (00:00:00.1318500)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.diagnostics\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Diagnostics.dll (00:00:00.1663835)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.dll (00:00:00.0276590)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.dll (00:00:00.0526489)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.diagnostics.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll (00:00:00.0678837)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.diagnostics.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll (00:00:00.0722153)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.hosting.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll (00:00:00.0190532)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.hosting.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll (00:00:00.0235304)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.hosting.server.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll (00:00:00.0054218)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.html.abstractions\2.0.0\lib\netstandard2.0\Microsoft.AspNetCore.Html.Abstractions.dll (00:00:00.0101763)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.html.abstractions\2.0.0\lib\netstandard2.0\Microsoft.AspNetCore.Html.Abstractions.dll (00:00:00.0073745)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.hosting.server.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll (00:00:00.0300599)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.hosting\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.dll (00:00:00.1500130)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.hosting\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.dll (00:00:00.1931498)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll (00:00:00.0871907)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll (00:00:00.1305030)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.dll (00:00:00.1514599)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http.features\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll (00:00:00.0228932)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.dll (00:00:00.1805237)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http.features\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll (00:00:00.0311932)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http.extensions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll (00:00:00.0388660)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.httpoverrides\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.HttpOverrides.dll (00:00:00.0484171)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.http.extensions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll (00:00:00.1090688)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.httpoverrides\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.HttpOverrides.dll (00:00:00.0181022)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.identity\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Identity.dll (00:00:00.1407929)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.identity\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Identity.dll (00:00:00.1309294)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.identity.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll (00:00:00.2012662)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.jsonpatch\2.0.0\lib\netstandard2.0\Microsoft.AspNetCore.JsonPatch.dll (00:00:00.1365301)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.jsonpatch\2.0.0\lib\netstandard2.0\Microsoft.AspNetCore.JsonPatch.dll (00:00:00.1219045)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.localization\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Localization.dll (00:00:00.0169019)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.identity.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll (00:00:00.4845621)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.localization\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Localization.dll (00:00:00.0371617)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.localization.routing\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Localization.Routing.dll (00:00:00.1194259)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.localization.routing\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Localization.Routing.dll (00:00:00.0992739)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.middlewareanalysis\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll (00:00:00.0234896)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.middlewareanalysis\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll (00:00:00.0830851)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.apiexplorer\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll (00:00:00.0497020)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.apiexplorer\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll (00:00:00.1647950)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll (00:00:00.1680968)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.cors\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Cors.dll (00:00:00.0144444)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll (00:00:00.1315782)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.cors\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Cors.dll (00:00:00.0304516)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.core\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Core.dll (00:00:00.7598414)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.dll (00:00:00.0321556)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.dll (00:00:00.0033348)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.core\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Core.dll (00:00:00.8433933)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.dataannotations\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll (00:00:00.0245619)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.dataannotations\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll (00:00:00.0483015)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.formatters.json\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll (00:00:00.0293504)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.formatters.json\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll (00:00:00.0502535)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.formatters.xml\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll (00:00:00.0771307)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.formatters.xml\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll (00:00:00.0758251)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.localization\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Localization.dll (00:00:00.0175583)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.localization\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Localization.dll (00:00:00.0297962)
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.Razor_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.Razor;namespace.TagHelpers;namespace.UrlResolutionTagHelper;cil-type".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.razor\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.dll (00:00:00.1618638)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.razor\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.dll (00:00:00.2585985)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.razor.extensions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll (00:00:00.0798806)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.razor.extensions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll (00:00:00.1663799)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.razorpages\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.RazorPages.dll (00:00:00.1853601)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.razorpages\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.RazorPages.dll (00:00:00.2558931)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.viewfeatures\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll (00:00:00.5263201)
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.viewfeatures\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll (00:00:00.5131978)
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.FormActionTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.ImageTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.InputTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO] Couldn't get underlying enum type for Microsoft.AspNetCore.Razor.TagHelpers.TagStructure
+[540] [INFO] Attribute decoding is partial. Decoding attribute Microsoft.AspNetCore.Razor.TagHelpers.HtmlTargetElementAttribute failed on @"Microsoft.AspNetCore.Mvc.TagHelpers_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Mvc;namespace.TagHelpers;namespace.LinkTagHelper;cil-type".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.taghelpers\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll (00:00:00.1446183)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.mvc.taghelpers\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll (00:00:00.1418528)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.nodeservices\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.NodeServices.dll (00:00:00.1051829)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.razor\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Razor.dll (00:00:00.0566543)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.razor\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Razor.dll (00:00:00.0077367)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.nodeservices\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.NodeServices.dll (00:00:00.1937962)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.owin\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Owin.dll (00:00:00.1687768)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.owin\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Owin.dll (00:00:00.1146028)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.razor.runtime\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Razor.Runtime.dll (00:00:00.0445356)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.responsecaching.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll (00:00:00.0318724)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.responsecaching.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll (00:00:00.0054595)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.razor.runtime\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Razor.Runtime.dll (00:00:00.0408731)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.razor.language\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Razor.Language.dll (00:00:00.6261212)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.razor.language\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Razor.Language.dll (00:00:00.6482341)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.responsecompression\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCompression.dll (00:00:00.0226339)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.responsecompression\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCompression.dll (00:00:00.0182961)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.responsecaching\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCaching.dll (00:00:00.0445395)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.responsecaching\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCaching.dll (00:00:00.1894224)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.rewrite\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Rewrite.dll (00:00:00.1895767)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.routing.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Routing.Abstractions.dll (00:00:00.0254965)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.rewrite\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Rewrite.dll (00:00:00.0904373)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.routing.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Routing.Abstractions.dll (00:00:00.0331611)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.routing\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Routing.dll (00:00:00.1390425)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.routing\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Routing.dll (00:00:00.2339821)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.httpsys\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.HttpSys.dll (00:00:00.1888691)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.httpsys\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.HttpSys.dll (00:00:00.2593034)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.iisintegration\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.IISIntegration.dll (00:00:00.0193358)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.dll (00:00:00.0059763)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.dll (00:00:00.0021046)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.https\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll (00:00:00.0339761)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.iisintegration\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.IISIntegration.dll (00:00:00.0892547)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.https\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll (00:00:00.0315549)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.core\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll (00:00:00.2302623)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.core\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll (00:00:00.3426234)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.transport.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll (00:00:00.0887515)
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_fileno_func;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_close_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_async_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_connection_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_connect_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_alloc_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_read_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_write_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_walk_cb;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv_2.0.1.0::Microsoft;namespace.AspNetCore;namespace.Server;namespace.Kestrel;namespace.Transport;namespace.Libuv;namespace.Internal;namespace.Networking;namespace.LibuvFunctions.uv_timer_cb;cil-type".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.transport.abstractions\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll (00:00:00.1064960)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.transport.libuv\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll (00:00:00.1238037)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.session\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Session.dll (00:00:00.0767720)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.session\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Session.dll (00:00:00.0175955)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.server.kestrel.transport.libuv\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll (00:00:00.1197672)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.spaservices\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.SpaServices.dll (00:00:00.0124196)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.spaservices\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.SpaServices.dll (00:00:00.0236980)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.websockets\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.WebSockets.dll (00:00:00.0430288)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.websockets\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.WebSockets.dll (00:00:00.0624558)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.staticfiles\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.StaticFiles.dll (00:00:00.0305722)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.staticfiles\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.StaticFiles.dll (00:00:00.0179307)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.webutilities\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll (00:00:00.0678100)
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.Kid();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.Kty();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.KeyOps();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.N();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.E();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.D();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.DP();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.DQ();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.QI();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.P();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.Q();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.K();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#11}.T();cil-property".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.azure.keyvault.webkey\2.0.7\lib\netstandard1.4\Microsoft.Azure.KeyVault.WebKey.dll (00:00:00.0136907)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.azure.keyvault.webkey\2.0.7\lib\netstandard1.4\Microsoft.Azure.KeyVault.WebKey.dll (00:00:00.0092931)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.aspnetcore.webutilities\2.0.1\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll (00:00:00.1246437)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.azure.keyvault\2.3.2\lib\netstandard1.4\Microsoft.Azure.KeyVault.dll (00:00:00.4389132)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.azure.keyvault\2.3.2\lib\netstandard1.4\Microsoft.Azure.KeyVault.dll (00:00:00.6854117)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.CSharp.Workspaces.dll (00:00:00.5735018)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.CSharp.Workspaces.dll (00:00:01.0932631)
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Roslyn;namespace.Utilities;namespace.IUnsafeComStream;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.Cci;namespace.ISymUnmanagedDocumentWriter;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.Cci;namespace.ISymUnmanagedWriter5;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.Cci;namespace.ISymUnmanagedWriter8;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.Cci;namespace.IPdbWriter;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.Cci;namespace.ISymUnmanagedAsyncMethodPropertiesWriter;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.Cci;namespace.IMetaDataEmit;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.Cci;namespace.IMetaDataImport;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.CodeAnalysis;namespace.Interop;namespace.IClrMetaHost;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.CodeAnalysis;namespace.Interop;namespace.IClrRuntimeInfo;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.ComInterfaceType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.InterfaceTypeAttribute failed on @"Microsoft.CodeAnalysis_2.3.0.0::Microsoft;namespace.CodeAnalysis;namespace.Interop;namespace.IClrStrongName;cil-type".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.common\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.dll (00:00:02.6633871)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.common\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.dll (00:00:02.3778174)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.razor\2.0.1\lib\netstandard2.0\Microsoft.CodeAnalysis.Razor.dll (00:00:00.0241215)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.razor\2.0.1\lib\netstandard2.0\Microsoft.CodeAnalysis.Razor.dll (00:00:00.0162080)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.csharp\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.CSharp.dll (00:00:04.6312427)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\Microsoft.CSharp.dll (00:00:00.0069802)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\Microsoft.CSharp.dll (00:00:00.0061740)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\Microsoft.Data.Edm.dll (00:00:00.9693791)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.data.edm\5.8.2\lib\netstandard1.1\Microsoft.Data.Edm.dll (00:00:00.6761701)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.csharp\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.CSharp.dll (00:00:06.3080966)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.workspaces.common\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.Workspaces.dll (00:00:02.7015603)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.data.sqlite.core\2.0.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll (00:00:00.0826446)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.data.sqlite.core\2.0.0\lib\netstandard2.0\Microsoft.Data.Sqlite.dll (00:00:00.0432874)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.dotnet.platformabstractions\2.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll (00:00:00.0081083)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.dotnet.platformabstractions\2.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll (00:00:00.0058525)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.codeanalysis.workspaces.common\2.3.1\lib\netstandard1.3\Microsoft.CodeAnalysis.Workspaces.dll (00:00:03.1605725)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\Microsoft.Data.OData.dll (00:00:01.1394658)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.data.odata\5.8.2\lib\netstandard1.1\Microsoft.Data.OData.dll (00:00:01.5906672)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.design\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Design.dll (00:00:00.3085087)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.design\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Design.dll (00:00:00.3578240)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll (00:00:01.4052393)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.inmemory\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.InMemory.dll (00:00:00.0841664)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll (00:00:01.7514548)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.inmemory\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.InMemory.dll (00:00:00.0459520)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll (00:00:00.1352985)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll (00:00:00.1818563)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.relational\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll (00:00:00.8875551)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll (00:00:00.0148797)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll (00:00:00.0176459)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.memory\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll (00:00:00.0467316)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.memory\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll (00:00:00.0229869)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.redis\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Redis.dll (00:00:00.0175794)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.redis\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Redis.dll (00:00:00.0239273)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.relational\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll (00:00:01.0766170)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll (00:00:00.1924725)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.sqlserver\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.SqlServer.dll (00:00:00.0568006)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.entityframeworkcore.sqlserver\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll (00:00:00.2701070)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.caching.sqlserver\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.SqlServer.dll (00:00:00.0184894)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll (00:00:00.0162304)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll (00:00:00.0063253)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.azurekeyvault\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll (00:00:00.0110278)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.azurekeyvault\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll (00:00:00.0072128)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.commandline\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.CommandLine.dll (00:00:00.0290633)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.commandline\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.CommandLine.dll (00:00:00.2003761)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.binder\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll (00:00:00.0201803)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.environmentvariables\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll (00:00:00.0215659)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.binder\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll (00:00:00.0667634)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.environmentvariables\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll (00:00:00.0515302)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll (00:00:00.0676599)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.ini\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Ini.dll (00:00:00.0089735)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll (00:00:00.0383335)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.ini\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Ini.dll (00:00:00.0072789)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.fileextensions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll (00:00:00.0107640)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.fileextensions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll (00:00:00.0061125)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.usersecrets\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.dll (00:00:00.0057037)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.usersecrets\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.dll (00:00:00.0263456)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.json\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll (00:00:00.0074200)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.xml\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Xml.dll (00:00:00.0205104)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.json\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll (00:00:00.0493574)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.configuration.xml\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Xml.dll (00:00:00.0283456)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll (00:00:00.0838021)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll (00:00:00.1337884)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.dependencyinjection\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll (00:00:00.0825697)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.dependencyinjection\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll (00:00:00.1874229)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.diagnosticadapter\2.0.0\lib\netcoreapp2.0\Microsoft.Extensions.DiagnosticAdapter.dll (00:00:00.1189180)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.diagnosticadapter\2.0.0\lib\netcoreapp2.0\Microsoft.Extensions.DiagnosticAdapter.dll (00:00:00.1463993)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.dependencymodel\2.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll (00:00:00.1083662)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll (00:00:00.0077021)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll (00:00:00.0057683)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.composite\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Composite.dll (00:00:00.0206016)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.dependencymodel\2.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll (00:00:00.0507902)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.composite\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Composite.dll (00:00:00.0089776)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.embedded\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.dll (00:00:00.0142598)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.embedded\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.dll (00:00:00.0158024)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.physical\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll (00:00:00.0258251)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.fileproviders.physical\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll (00:00:00.0318758)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.hosting.abstractions\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll (00:00:00.0129487)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.hosting.abstractions\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll (00:00:00.0016696)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.filesystemglobbing\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll (00:00:00.0820860)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.filesystemglobbing\2.0.0\lib\netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll (00:00:00.1267074)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.identity.stores\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll (00:00:00.0751924)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.identity.stores\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll (00:00:00.1228411)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.localization.abstractions\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Localization.Abstractions.dll (00:00:00.0270218)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.localization.abstractions\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Localization.Abstractions.dll (00:00:00.0462238)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.identity.core\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Identity.Core.dll (00:00:00.2698834)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.localization\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Localization.dll (00:00:00.0358226)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.localization\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Localization.dll (00:00:00.0131300)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.identity.core\2.0.1\lib\netstandard2.0\Microsoft.Extensions.Identity.Core.dll (00:00:00.3472521)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll (00:00:00.0461652)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll (00:00:00.0551427)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.configuration\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Configuration.dll (00:00:00.0040912)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.configuration\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Configuration.dll (00:00:00.0272313)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.azureappservices\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.AzureAppServices.dll (00:00:00.0787169)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.debug\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Debug.dll (00:00:00.0150377)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.debug\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Debug.dll (00:00:00.0293434)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.azureappservices\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.AzureAppServices.dll (00:00:00.1594418)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.console\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Console.dll (00:00:00.0448930)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.console\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Console.dll (00:00:00.0567578)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.eventsource\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.EventSource.dll (00:00:00.0515646)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.eventsource\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.EventSource.dll (00:00:00.0737094)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll (00:00:00.0547043)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll (00:00:00.1236809)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.objectpool\2.0.0\lib\netstandard2.0\Microsoft.Extensions.ObjectPool.dll (00:00:00.0207666)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.objectpool\2.0.0\lib\netstandard2.0\Microsoft.Extensions.ObjectPool.dll (00:00:00.0186119)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.tracesource\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.TraceSource.dll (00:00:00.0090083)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.logging.tracesource\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.TraceSource.dll (00:00:00.0122977)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.options.configurationextensions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll (00:00:00.0177961)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.options.configurationextensions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll (00:00:00.0378953)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.options\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll (00:00:00.0371832)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.options\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll (00:00:00.0205723)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.platformabstractions\1.1.0\lib\netstandard1.3\Microsoft.Extensions.PlatformAbstractions.dll (00:00:00.0359440)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.platformabstractions\1.1.0\lib\netstandard1.3\Microsoft.Extensions.PlatformAbstractions.dll (00:00:00.0226780)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.webencoders\2.0.0\lib\netstandard2.0\Microsoft.Extensions.WebEncoders.dll (00:00:00.0090128)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.webencoders\2.0.0\lib\netstandard2.0\Microsoft.Extensions.WebEncoders.dll (00:00:00.0332587)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.primitives\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll (00:00:00.0160247)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.extensions.primitives\2.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll (00:00:00.0375080)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.14.1\lib\netstandard1.3\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll (00:00:00.0124446)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.14.1\lib\netstandard1.3\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll (00:00:00.0274042)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.logging\1.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Logging.dll (00:00:00.0118610)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.logging\1.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Logging.dll (00:00:00.0158688)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.protocols\2.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Protocols.dll (00:00:00.0508373)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.protocols\2.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Protocols.dll (00:00:00.1131104)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.14.1\lib\netstandard1.3\Microsoft.IdentityModel.Clients.ActiveDirectory.dll (00:00:00.3190864)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.14.1\lib\netstandard1.3\Microsoft.IdentityModel.Clients.ActiveDirectory.dll (00:00:00.3964695)
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.AcrValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.AuthorizationEndpoint();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.CheckSessionIframe();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ClaimsSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ClaimsLocalesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ClaimsParameterSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ClaimTypesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.DisplayValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.EndSessionEndpoint();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.FrontchannelLogoutSessionSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.FrontchannelLogoutSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.GrantTypesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.HttpLogoutSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.IdTokenEncryptionAlgValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.IdTokenEncryptionEncValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.IdTokenSigningAlgValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.Issuer();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.JwksUri();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.LogoutSessionSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.OpPolicyUri();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.OpTosUri();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.RegistrationEndpoint();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.RequestObjectEncryptionAlgValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.RequestObjectEncryptionEncValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.RequestObjectSigningAlgValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.RequestParameterSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.RequestUriParameterSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.RequireRequestUriRegistration();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ResponseModesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ResponseTypesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ServiceDocumentation();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.ScopesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.SubjectTypesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.TokenEndpoint();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.TokenEndpointAuthMethodsSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.TokenEndpointAuthSigningAlgValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.UILocalesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.UserInfoEndpoint();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.UserInfoEndpointEncryptionAlgValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.UserInfoEndpointEncryptionEncValuesSupported();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.UserInfoEndpointSigningAlgValuesSupported();cil-property".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.protocols.openidconnect\2.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll (00:00:00.0487655)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.protocols.openidconnect\2.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll (00:00:00.0637582)
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Alg();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Crv();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.D();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.DP();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.DQ();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.E();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.K();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.KeyOps();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Kid();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Kty();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.N();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Oth();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.P();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Q();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.QI();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Use();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.X();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.X5c();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.X5t();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.X5tS256();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.X5u();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#21}.Y();cil-property".
+[540] [INFO] Couldn't get underlying enum type for Newtonsoft.Json.DefaultValueHandling
+[540] [INFO] Attribute decoding is partial. Decoding attribute Newtonsoft.Json.JsonPropertyAttribute failed on @"{#24}.Keys();cil-property".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.tokens\5.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.dll (00:00:00.0875083)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.identitymodel.tokens\5.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.dll (00:00:00.0787168)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.net.http.headers\2.0.1\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll (00:00:00.0823343)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.net.http.headers\2.0.1\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll (00:00:00.1974874)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.rest.clientruntime.azure\3.3.7\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.Azure.dll (00:00:00.1786177)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.rest.clientruntime.azure\3.3.7\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.Azure.dll (00:00:00.2850488)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\Microsoft.VisualBasic.dll (00:00:00.0117907)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\Microsoft.VisualBasic.dll (00:00:00.0237042)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.rest.clientruntime\2.3.8\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.dll (00:00:00.1290837)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.contracts\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll (00:00:00.0367637)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.contracts\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll (00:00:00.0328709)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.rest.clientruntime\2.3.8\lib\netstandard1.4\Microsoft.Rest.ClientRuntime.dll (00:00:00.2454726)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.browserlink\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.BrowserLink.dll (00:00:00.1862478)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.browserlink\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.BrowserLink.dll (00:00:00.2340641)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.dll (00:00:00.0477296)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.dll (00:00:00.0457293)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.core\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll (00:00:00.0454548)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.core\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll (00:00:00.0743255)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.templating\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll (00:00:00.0551285)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.templating\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll (00:00:00.0603622)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll (00:00:00.0532802)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.entityframeworkcore\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll (00:00:00.1067530)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.utils\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll (00:00:00.0302021)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegeneration.utils\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll (00:00:00.0705265)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\Microsoft.Win32.Primitives.dll (00:00:00.0293507)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\Microsoft.Win32.Primitives.dll (00:00:00.0412490)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegenerators.mvc\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll (00:00:00.2032965)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.win32.registry\4.4.0\ref\netstandard2.0\Microsoft.Win32.Registry.dll (00:00:00.0095126)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.win32.registry\4.4.0\ref\netstandard2.0\Microsoft.Win32.Registry.dll (00:00:00.0372543)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.visualstudio.web.codegenerators.mvc\2.0.1\lib\netstandard2.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll (00:00:00.2796584)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\mscorlib.dll (00:00:00.0038994)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\mscorlib.dll (00:00:00.0033361)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\netstandard.dll (00:00:00.0038133)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\netstandard.dll (00:00:00.0107567)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\windowsazure.storage\8.1.4\lib\netstandard1.3\Microsoft.WindowsAzure.Storage.dll (00:00:01.0099462)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\newtonsoft.json.bson\1.0.1\lib\netstandard1.3\Newtonsoft.Json.Bson.dll (00:00:00.1792687)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\newtonsoft.json.bson\1.0.1\lib\netstandard1.3\Newtonsoft.Json.Bson.dll (00:00:00.0506366)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\windowsazure.storage\8.1.4\lib\netstandard1.3\Microsoft.WindowsAzure.Storage.dll (00:00:01.3628512)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\newtonsoft.json\10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll (00:00:00.6269819)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\nuget.frameworks\4.0.0\lib\netstandard1.3\NuGet.Frameworks.dll (00:00:00.1099397)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\newtonsoft.json\10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll (00:00:00.9140736)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.bundle_green\1.1.7\lib\netcoreapp\SQLitePCLRaw.batteries_green.dll (00:00:00.0066185)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.bundle_green\1.1.7\lib\netcoreapp\SQLitePCLRaw.batteries_green.dll (00:00:00.0110342)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\nuget.frameworks\4.0.0\lib\netstandard1.3\NuGet.Frameworks.dll (00:00:00.1101269)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\remotion.linq\2.1.1\lib\netstandard1.0\Remotion.Linq.dll (00:00:00.4415134)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.bundle_green\1.1.7\lib\netcoreapp\SQLitePCLRaw.batteries_v2.dll (00:00:00.0044589)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.bundle_green\1.1.7\lib\netcoreapp\SQLitePCLRaw.batteries_v2.dll (00:00:00.0034227)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.core\1.1.7\lib\netstandard1.1\SQLitePCLRaw.core.dll (00:00:00.0531776)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\remotion.linq\2.1.1\lib\netstandard1.0\Remotion.Linq.dll (00:00:00.5552700)
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.sqlite3_vfs.SQLiteDeleteDelegate;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_log;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_agg_function_final;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_scalar_function;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_agg_function_step;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_destroy;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_collation;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_update;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_commit;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_profile;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_progress_handler;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_authorizer;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_trace;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_rollback;cil-type".
+[540] [INFO] Couldn't get underlying enum type for System.Runtime.InteropServices.CallingConvention
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute failed on @"SQLitePCLRaw.provider.e_sqlite3_1.0.0.0::SQLitePCL;namespace.SQLite3Provider_e_sqlite3.NativeMethods.callback_exec;cil-type".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.core\1.1.7\lib\netstandard1.1\SQLitePCLRaw.core.dll (00:00:00.0534400)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.provider.e_sqlite3.netstandard11\1.1.7\lib\netstandard1.1\SQLitePCLRaw.provider.e_sqlite3.dll (00:00:00.0480573)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.AppContext.dll (00:00:00.0047448)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.AppContext.dll (00:00:00.0031139)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Buffers.dll (00:00:00.0053127)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Buffers.dll (00:00:00.0337904)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\sqlitepclraw.provider.e_sqlite3.netstandard11\1.1.7\lib\netstandard1.1\SQLitePCLRaw.provider.e_sqlite3.dll (00:00:00.0654067)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\stackexchange.redis.strongname\1.2.4\lib\netstandard1.5\StackExchange.Redis.StrongName.dll (00:00:00.7476522)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\stackexchange.redis.strongname\1.2.4\lib\netstandard1.5\StackExchange.Redis.StrongName.dll (00:00:00.7772764)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.Concurrent.dll (00:00:00.0134865)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.Concurrent.dll (00:00:00.0230944)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.dll (00:00:00.0783651)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.dll (00:00:00.0687718)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.Immutable.dll (00:00:00.1013121)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.NonGeneric.dll (00:00:00.0223412)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.NonGeneric.dll (00:00:00.0117562)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.Specialized.dll (00:00:00.0152829)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.Specialized.dll (00:00:00.0477266)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.Annotations.dll (00:00:00.0135937)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.Annotations.dll (00:00:00.0434813)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.Composition.dll (00:00:00.0026348)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.Composition.dll (00:00:00.0335698)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.DataAnnotations.dll (00:00:00.0237519)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Collections.Immutable.dll (00:00:00.3288282)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.DataAnnotations.dll (00:00:00.0299406)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.dll (00:00:00.0278017)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.dll (00:00:00.0484601)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.Primitives.dll (00:00:00.0381133)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.Primitives.dll (00:00:00.0555207)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.EventBasedAsync.dll (00:00:00.0550576)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.EventBasedAsync.dll (00:00:00.0128401)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.attributedmodel\1.0.31\lib\netstandard1.0\System.Composition.AttributedModel.dll (00:00:00.0189162)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.attributedmodel\1.0.31\lib\netstandard1.0\System.Composition.AttributedModel.dll (00:00:00.0415481)
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#24}.Container();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#24}.DesignMode();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#24}.Site();cil-property".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.TypeConverter.dll (00:00:00.2364964)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ComponentModel.TypeConverter.dll (00:00:00.2652424)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.convention\1.0.31\lib\netstandard1.0\System.Composition.Convention.dll (00:00:00.0506605)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.convention\1.0.31\lib\netstandard1.0\System.Composition.Convention.dll (00:00:00.0506338)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.hosting\1.0.31\lib\netstandard1.0\System.Composition.Hosting.dll (00:00:00.0623052)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.hosting\1.0.31\lib\netstandard1.0\System.Composition.Hosting.dll (00:00:00.0361157)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.runtime\1.0.31\lib\netstandard1.0\System.Composition.Runtime.dll (00:00:00.0270603)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Configuration.dll (00:00:00.0047207)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.runtime\1.0.31\lib\netstandard1.0\System.Composition.Runtime.dll (00:00:00.0096344)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Configuration.dll (00:00:00.0040572)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Console.dll (00:00:00.0740567)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Core.dll (00:00:00.0060013)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Console.dll (00:00:00.0652209)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Core.dll (00:00:00.0210561)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.typedparts\1.0.31\lib\netstandard1.0\System.Composition.TypedParts.dll (00:00:00.0530644)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Data.dll (00:00:00.0031228)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Data.dll (00:00:00.0013662)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.composition.typedparts\1.0.31\lib\netstandard1.0\System.Composition.TypedParts.dll (00:00:00.0421984)
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#15}.AutoIncrement();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.MappingType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#15}.ColumnMapping();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#15}.ColumnName();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#15}.DataType();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.DataSetDateTime
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#15}.DateTimeMode();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#15}.DateTimeMode();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#15}.Expression();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#15}.Ordinal();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#15}.Table();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#15}.Unique();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#20}.DataSet();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#31}.Relations();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.SerializationFormat
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#31}.RemotingFormat();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#31}.SchemaSerializationMode();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#31}.Site();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#31}.Tables();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#34}.ChildRelations();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#34}.Columns();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#34}.Constraints();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#34}.DataSet();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#34}.ParentRelations();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.SerializationFormat
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#34}.RemotingFormat();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#34}.Site();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#34}.TableName();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#41}.ApplyDefaultSort();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.DataViewRowState
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#41}.RowStateFilter();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#41}.Table();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#42}.DataViewSettings();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.AcceptRejectRule
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#53}.AcceptRejectRule();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.Rule
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#53}.DeleteRule();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.Rule
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#53}.UpdateRule();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#131}.FillLoadOption();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.MissingMappingAction
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#131}.MissingMappingAction();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.MissingSchemaAction
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#131}.MissingSchemaAction();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#131}.TableMappings();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#133}.Count();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#133}.Item(Int32);cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#133}.Item(String);cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#134}.ColumnMappings();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#135}.Count();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#135}.Item(Int32);cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#135}.Item(String);cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#137}.CommandText();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.CommandType
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#137}.CommandType();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#137}.CommandType();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#137}.Connection();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#137}.Parameters();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#137}.Transaction();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.UpdateRowSource
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#137}.UpdatedRowSource();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.Common.CatalogLocation
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#138}.CatalogLocation();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.ConflictOption
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#138}.ConflictOption();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#138}.DataAdapter();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#139}.ConnectionString();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#140}.BrowsableConnectionString();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#140}.ConnectionString();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#141}.DeleteCommand();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#141}.InsertCommand();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#141}.SelectCommand();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#141}.UpdateCommand();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#150}.DbType();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#150}.DbType();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.ParameterDirection
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#150}.Direction();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#150}.Direction();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#150}.SourceColumnNullMapping();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Data.DataRowVersion
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#150}.SourceVersion();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.RefreshProperties
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.RefreshPropertiesAttribute failed on @"{#150}.Value();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#151}.Count();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#151}.IsFixedSize();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#151}.IsReadOnly();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#151}.IsSynchronized();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.ComponentModel.DesignerSerializationVisibility
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DesignerSerializationVisibilityAttribute failed on @"{#151}.SyncRoot();cil-property".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Data.Common.dll (00:00:00.1935241)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Contracts.dll (00:00:00.0202675)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Contracts.dll (00:00:00.0067233)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.data.sqlclient\4.4.0\ref\netstandard2.0\System.Data.SqlClient.dll (00:00:00.0827765)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.data.sqlclient\4.4.0\ref\netstandard2.0\System.Data.SqlClient.dll (00:00:00.1251474)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.DiagnosticSource.dll (00:00:00.0219904)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.DiagnosticSource.dll (00:00:00.0629638)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Debug.dll (00:00:00.0334571)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Debug.dll (00:00:00.0215977)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.FileVersionInfo.dll (00:00:00.0065011)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.FileVersionInfo.dll (00:00:00.0044226)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Process.dll (00:00:00.0112770)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Data.Common.dll (00:00:00.5369063)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Process.dll (00:00:00.0229986)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.StackTrace.dll (00:00:00.0235433)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.TextWriterTraceListener.dll (00:00:00.0053368)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.StackTrace.dll (00:00:00.0118834)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.TextWriterTraceListener.dll (00:00:00.0052629)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Tools.dll (00:00:00.0047679)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Tools.dll (00:00:00.0046152)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.TraceSource.dll (00:00:00.0112203)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.dll (00:00:00.0079907)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.dll (00:00:00.0030470)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.TraceSource.dll (00:00:00.0360157)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Tracing.dll (00:00:00.0319685)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Diagnostics.Tracing.dll (00:00:00.0308699)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Drawing.dll (00:00:00.0118272)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Drawing.dll (00:00:00.0607754)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Drawing.Primitives.dll (00:00:00.1235026)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Drawing.Primitives.dll (00:00:00.1075195)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Globalization.Calendars.dll (00:00:00.0154332)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Globalization.Calendars.dll (00:00:00.0348063)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Dynamic.Runtime.dll (00:00:00.0146735)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Dynamic.Runtime.dll (00:00:00.0536451)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Globalization.Extensions.dll (00:00:00.0153781)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Globalization.Extensions.dll (00:00:00.0204566)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Globalization.dll (00:00:00.0323474)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Globalization.dll (00:00:00.0350029)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.interactive.async\3.1.1\lib\netstandard1.3\System.Interactive.Async.dll (00:00:00.5890731)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Compression.dll (00:00:00.0068946)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.interactive.async\3.1.1\lib\netstandard1.3\System.Interactive.Async.dll (00:00:00.6532302)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Compression.dll (00:00:00.0090518)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.identitymodel.tokens.jwt\5.1.4\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.dll (00:00:00.0377942)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Compression.FileSystem.dll (00:00:00.0096019)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Compression.FileSystem.dll (00:00:00.0030256)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Compression.ZipFile.dll (00:00:00.0044883)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.identitymodel.tokens.jwt\5.1.4\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.dll (00:00:00.0657952)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Compression.ZipFile.dll (00:00:00.0048706)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.dll (00:00:00.0031123)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.DriveInfo.dll (00:00:00.0048505)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.dll (00:00:00.0126826)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.DriveInfo.dll (00:00:00.0057692)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.dll (00:00:00.0198990)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.Primitives.dll (00:00:00.0037901)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.Primitives.dll (00:00:00.0024629)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.Watcher.dll (00:00:00.0053458)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.dll (00:00:00.1213229)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.FileSystem.Watcher.dll (00:00:00.0229297)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.IsolatedStorage.dll (00:00:00.0502541)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.IsolatedStorage.dll (00:00:00.0546183)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.MemoryMappedFiles.dll (00:00:00.0283060)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.UnmanagedMemoryStream.dll (00:00:00.0245074)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.MemoryMappedFiles.dll (00:00:00.0353617)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.UnmanagedMemoryStream.dll (00:00:00.0136156)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Pipes.dll (00:00:00.0212497)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.IO.Pipes.dll (00:00:00.0629582)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.dll (00:00:00.0543129)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.dll (00:00:00.1382717)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.Expressions.dll (00:00:00.1890203)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.Parallel.dll (00:00:00.0276194)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.Expressions.dll (00:00:00.1541121)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.Parallel.dll (00:00:00.0659316)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.Queryable.dll (00:00:00.0360419)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.dll (00:00:00.0040175)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.dll (00:00:00.0188910)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Linq.Queryable.dll (00:00:00.0500189)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Http.dll (00:00:00.0673545)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.HttpListener.dll (00:00:00.0110154)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.HttpListener.dll (00:00:00.0136439)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Http.dll (00:00:00.0525094)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Mail.dll (00:00:00.0141697)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.NameResolution.dll (00:00:00.0170420)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.NameResolution.dll (00:00:00.0101764)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Mail.dll (00:00:00.0378449)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Ping.dll (00:00:00.0323884)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Ping.dll (00:00:00.0308886)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.NetworkInformation.dll (00:00:00.0568647)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.NetworkInformation.dll (00:00:00.0620786)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Primitives.dll (00:00:00.0555985)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Primitives.dll (00:00:00.0793567)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Requests.dll (00:00:00.0470768)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.ServicePoint.dll (00:00:00.0060185)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.ServicePoint.dll (00:00:00.0065251)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Requests.dll (00:00:00.1296160)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Security.dll (00:00:00.1018493)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Security.dll (00:00:00.0482417)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Sockets.dll (00:00:00.0912248)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.Sockets.dll (00:00:00.0796170)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebClient.dll (00:00:00.0887683)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebProxy.dll (00:00:00.0036946)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebClient.dll (00:00:00.0756479)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebProxy.dll (00:00:00.0251803)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebHeaderCollection.dll (00:00:00.0242870)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebHeaderCollection.dll (00:00:00.0434783)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebSockets.dll (00:00:00.0367622)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebSockets.dll (00:00:00.0312883)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebSockets.Client.dll (00:00:00.0053422)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Numerics.dll (00:00:00.0041757)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Numerics.dll (00:00:00.0035992)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Net.WebSockets.Client.dll (00:00:00.0166013)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Numerics.Vectors.dll (00:00:00.0302847)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ObjectModel.dll (00:00:00.0127933)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Numerics.Vectors.dll (00:00:00.0431480)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.DispatchProxy.dll (00:00:00.0114027)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.DispatchProxy.dll (00:00:00.0039291)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.dll (00:00:00.0038192)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.dll (00:00:00.0030682)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ObjectModel.dll (00:00:00.0434270)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Emit.dll (00:00:00.1023471)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Emit.ILGeneration.dll (00:00:00.0228554)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Emit.ILGeneration.dll (00:00:00.0206228)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Emit.dll (00:00:00.1454278)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Emit.Lightweight.dll (00:00:00.0094416)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Extensions.dll (00:00:00.0132469)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Emit.Lightweight.dll (00:00:00.0549651)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Extensions.dll (00:00:00.0355116)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Metadata.dll (00:00:00.3856448)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Primitives.dll (00:00:00.0067495)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Primitives.dll (00:00:00.0103233)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.TypeExtensions.dll (00:00:00.0277906)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.TypeExtensions.dll (00:00:00.0061949)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Resources.Reader.dll (00:00:00.0046689)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Resources.Reader.dll (00:00:00.0029104)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Resources.ResourceManager.dll (00:00:00.0063121)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Reflection.Metadata.dll (00:00:00.4438319)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Resources.ResourceManager.dll (00:00:00.0196686)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Resources.Writer.dll (00:00:00.0058556)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Resources.Writer.dll (00:00:00.0054041)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.runtime.compilerservices.unsafe\4.4.0\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll (00:00:00.0052511)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.CompilerServices.VisualC.dll (00:00:00.0047376)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.CompilerServices.VisualC.dll (00:00:00.0037926)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.runtime.compilerservices.unsafe\4.4.0\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll (00:00:00.0332125)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Extensions.dll (00:00:00.1282529)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Extensions.dll (00:00:00.1611767)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.dll (00:00:00.7250250)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Handles.dll (00:00:00.0056220)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Handles.dll (00:00:00.0031963)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.InteropServices.dll (00:00:00.1010191)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.InteropServices.dll (00:00:00.0940338)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.InteropServices.RuntimeInformation.dll (00:00:00.0048591)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.InteropServices.RuntimeInformation.dll (00:00:00.0047736)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.InteropServices.WindowsRuntime.dll (00:00:00.0056601)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.InteropServices.WindowsRuntime.dll (00:00:00.0061448)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Loader.dll (00:00:00.0047957)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Loader.dll (00:00:00.0045737)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Numerics.dll (00:00:00.0208012)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Numerics.dll (00:00:00.0135222)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.dll (00:00:00.0075252)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.dll (00:00:00.0030293)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Formatters.dll (00:00:00.0382357)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Formatters.dll (00:00:00.0107739)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Json.dll (00:00:00.0098459)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Json.dll (00:00:00.0189263)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Primitives.dll (00:00:00.0066373)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Primitives.dll (00:00:00.0083775)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Xml.dll (00:00:00.1033818)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.Serialization.Xml.dll (00:00:00.0876519)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.security.accesscontrol\4.4.0\ref\netstandard2.0\System.Security.AccessControl.dll (00:00:00.0665727)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Runtime.dll (00:00:01.4075208)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.security.accesscontrol\4.4.0\ref\netstandard2.0\System.Security.AccessControl.dll (00:00:00.0629294)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Claims.dll (00:00:00.0509004)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Algorithms.dll (00:00:00.0768193)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Claims.dll (00:00:00.1059556)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Csp.dll (00:00:00.0419375)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Csp.dll (00:00:00.0393978)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Algorithms.dll (00:00:00.0887411)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Encoding.dll (00:00:00.0077775)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Encoding.dll (00:00:00.0183093)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Primitives.dll (00:00:00.0092840)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.X509Certificates.dll (00:00:00.0220829)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.Primitives.dll (00:00:00.0309926)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.security.cryptography.xml\4.4.0\ref\netstandard2.0\System.Security.Cryptography.Xml.dll (00:00:00.0210514)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Cryptography.X509Certificates.dll (00:00:00.0709847)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.dll (00:00:00.0039682)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.dll (00:00:00.0028883)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.security.cryptography.xml\4.4.0\ref\netstandard2.0\System.Security.Cryptography.Xml.dll (00:00:00.0419115)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Principal.dll (00:00:00.0049171)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.security.principal.windows\4.4.0\ref\netstandard2.0\System.Security.Principal.Windows.dll (00:00:00.0106838)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.Principal.dll (00:00:00.0182463)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.security.principal.windows\4.4.0\ref\netstandard2.0\System.Security.Principal.Windows.dll (00:00:00.0144363)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.SecureString.dll (00:00:00.0042735)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Security.SecureString.dll (00:00:00.0033204)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ServiceModel.Web.dll (00:00:00.0032636)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ServiceModel.Web.dll (00:00:00.0082256)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ServiceProcess.dll (00:00:00.0040553)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ServiceProcess.dll (00:00:00.0065911)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Text.Encoding.dll (00:00:00.0015882)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Text.Encoding.dll (00:00:00.0030825)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Text.Encoding.Extensions.dll (00:00:00.0137647)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Text.Encoding.Extensions.dll (00:00:00.0943109)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\System.Spatial.dll (00:00:00.2539318)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Text.RegularExpressions.dll (00:00:00.1369484)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Text.RegularExpressions.dll (00:00:00.0225949)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.spatial\5.8.2\lib\netstandard1.1\System.Spatial.dll (00:00:00.5102466)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.text.encodings.web\4.4.0\lib\netstandard2.0\System.Text.Encodings.Web.dll (00:00:00.0690087)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\system.text.encodings.web\4.4.0\lib\netstandard2.0\System.Text.Encodings.Web.dll (00:00:00.0662939)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Overlapped.dll (00:00:00.0059085)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Overlapped.dll (00:00:00.0066153)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.dll (00:00:00.0167396)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.dll (00:00:00.0284471)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.Dataflow.dll (00:00:00.0235929)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.dll (00:00:00.0173137)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.dll (00:00:00.0202380)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.Parallel.dll (00:00:00.0314994)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.Dataflow.dll (00:00:00.0793421)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.Parallel.dll (00:00:00.0126130)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.Extensions.dll (00:00:00.0061536)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Tasks.Extensions.dll (00:00:00.0072331)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.ThreadPool.dll (00:00:00.0088798)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Thread.dll (00:00:00.0102157)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.ThreadPool.dll (00:00:00.0182498)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Timer.dll (00:00:00.0027941)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Thread.dll (00:00:00.0357198)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Threading.Timer.dll (00:00:00.0388807)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Transactions.dll (00:00:00.0625444)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Transactions.dll (00:00:00.0334885)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Transactions.Local.dll (00:00:00.0370317)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ValueTuple.dll (00:00:00.0120202)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.ValueTuple.dll (00:00:00.0101131)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Transactions.Local.dll (00:00:00.0626835)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Web.dll (00:00:00.0209782)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Web.dll (00:00:00.0187404)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Web.HttpUtility.dll (00:00:00.0197553)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Web.HttpUtility.dll (00:00:00.0231870)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Windows.dll (00:00:00.0176402)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Windows.dll (00:00:00.0133818)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.dll (00:00:00.0285909)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.Linq.dll (00:00:00.0100767)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.dll (00:00:00.0361241)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.Linq.dll (00:00:00.0113040)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.Serialization.dll (00:00:00.0162656)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.Serialization.dll (00:00:00.0166238)
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaForm
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#113}.AttributeFormDefault();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaDerivationMethod
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#113}.BlockDefault();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaForm
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#113}.ElementFormDefault();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaDerivationMethod
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#113}.FinalDefault();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaContentProcessing
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#117}.ProcessContents();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaContentProcessing
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#118}.ProcessContents();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaForm
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#120}.Form();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaUse
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#120}.Use();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaDerivationMethod
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#130}.Block();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaDerivationMethod
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#139}.Block();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaDerivationMethod
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#139}.Final();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaForm
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#139}.Form();cil-property".
+[540] [INFO] Couldn't get underlying enum type for System.Xml.Schema.XmlSchemaDerivationMethod
+[540] [INFO] Attribute decoding is partial. Decoding attribute System.ComponentModel.DefaultValueAttribute failed on @"{#184}.Final();cil-property".
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.ReaderWriter.dll (00:00:00.2495031)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.ReaderWriter.dll (00:00:00.2554570)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XDocument.dll (00:00:00.0179110)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XmlDocument.dll (00:00:00.0041131)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XmlDocument.dll (00:00:00.0102622)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XPath.dll (00:00:00.0046271)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XPath.dll (00:00:00.0040627)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XDocument.dll (00:00:00.0323851)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XmlSerializer.dll (00:00:00.0900837)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XPath.XDocument.dll (00:00:00.0053868)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XPath.XDocument.dll (00:00:00.0042190)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\WindowsBase.dll (00:00:00.0042071)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\WindowsBase.dll (00:00:00.0028328)
+[540] [INFO]   C:\Users\PenTester02\.nuget\packages\microsoft.netcore.app\2.0.0\ref\netcoreapp2.0\System.Xml.XmlSerializer.dll (00:00:00.1082025)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Controllers\AuthorController.cs (00:00:00.2114727)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Controllers\BookController.cs (00:00:00.2336677)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Controllers\CustomerController.cs (00:00:00.0683808)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Controllers\HomeController.cs (00:00:00.0500323)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Controllers\LendController.cs (00:00:00.0527706)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Controllers\ReturnController.cs (00:00:00.0983749)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Interfaces\IAuthorRepository.cs (00:00:00.0469082)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Interfaces\IBookRepository.cs (00:00:00.0228248)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Interfaces\ICustomerRepository.cs (00:00:00.0123352)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Interfaces\IRepository.cs (00:00:00.0143310)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\LibraryDbContext.cs (00:00:00.0380275)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Model\Author.cs (00:00:00.0082296)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\DbInitializer.cs (00:00:00.2345418)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Model\Customer.cs (00:00:00.0080517)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Model\Book.cs (00:00:00.0924743)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Repository\AuthorRepository.cs (00:00:00.0668988)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Repository\BookRepository.cs (00:00:00.0667136)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Repository\CustomerRepository.cs (00:00:00.1008492)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Models\ErrorViewModel.cs (00:00:00.0712738)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Data\Repository\Repository.cs (00:00:00.1266397)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Startup.cs (00:00:00.1060245)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\Program.cs (00:00:00.1278637)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\ViewModel\BookViewModel.cs (00:00:00.0471972)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\ViewModel\CreateAuthorViewModel.cs (00:00:00.0288862)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\ViewModel\HomeViewModel.cs (00:00:00.0093400)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\ViewModel\LendViewModel.cs (00:00:00.0090461)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\ViewModel\CustomerViewModel.cs (00:00:00.0361702)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.AssemblyInfo.cs (00:00:00.0109610)
+[540] [INFO]   C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\.NETCoreApp,Version=v2.0.AssemblyAttributes.cs (00:00:00.0366645)
+[540] [INFO]   Extraction took 00:00:45.2736592
+[540] [INFO]   Peak working set = 768 MB
+[540] [INFO] EXTRACTION SUCCEEDED in 00:00:54.8076529
+[6104] [INFO] Skipping extraction since already extracted from the CLR tracer

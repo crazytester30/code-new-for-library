@@ -1,0 +1,15 @@
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\LibraryManagement.deps.json
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\LibraryManagement.runtimeconfig.json
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\LibraryManagement.runtimeconfig.dev.json
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\LibraryManagement.dll
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\LibraryManagement.pdb
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.csproj.AssemblyReference.cache
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.AssemblyInfoInputs.cache
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.AssemblyInfo.cs
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.csproj.CoreCompileInputs.cache
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.dll
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.pdb
+C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\obj\Debug\netcoreapp2.0\LibraryManagement.genruntimeconfig.cache

@@ -1,0 +1,1065 @@
+[2021-11-19 11:05:04] This is codeql database create csharp-db --language=csharp
+[2021-11-19 11:05:04] Log file was started late.
+[2021-11-19 11:05:04] [PROGRESS] database create> Initializing database at C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db.
+[2021-11-19 11:05:04] Running plumbing command: codeql database init --language=csharp --source-root=C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement --allow-missing-source-root=false --allow-already-existing -- C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db
+[2021-11-19 11:05:04] [PROGRESS] database init> Counting lines of code in C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement
+[2021-11-19 11:05:05] [PROGRESS] database init> Resolving extractor csharp.
+[2021-11-19 11:05:05] Calling plumbing command: codeql resolve languages --format=json
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Scanning for [codeql-extractor.yml] from C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\.codeqlmanifest.json
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\cpp\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csv\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\go\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\html\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\java\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\javascript\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\properties\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\python\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\ruby\codeql-extractor.yml.
+[2021-11-19 11:05:05] [DETAILS] resolve languages> Parsing C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\xml\codeql-extractor.yml.
+[2021-11-19 11:05:05] Plumbing command codeql resolve languages completed:
+                      {
+                        "extractors" : {
+                          "cpp" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\cpp"
+                            }
+                          ],
+                          "csharp" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\csharp"
+                            }
+                          ],
+                          "csv" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\csv"
+                            }
+                          ],
+                          "go" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\go"
+                            }
+                          ],
+                          "html" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\html"
+                            }
+                          ],
+                          "java" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\java"
+                            }
+                          ],
+                          "javascript" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\javascript"
+                            }
+                          ],
+                          "properties" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\properties"
+                            }
+                          ],
+                          "python" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\python"
+                            }
+                          ],
+                          "ruby" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\ruby"
+                            }
+                          ],
+                          "xml" : [
+                            {
+                              "extractor_root" : "C:\\Users\\PenTester02\\Downloads\\codeql-bundle-win64\\codeql\\xml"
+                            }
+                          ]
+                        }
+                      }
+[2021-11-19 11:05:05] [DETAILS] database init> Found candidate extractor root for csharp: C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp.
+[2021-11-19 11:05:05] [PROGRESS] database init> Successfully loaded extractor C# (csharp) from C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp.
+[2021-11-19 11:05:05] [PROGRESS] database init> Created skeleton CodeQL database at C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db. This in-progress database is ready to be populated by an extractor.
+[2021-11-19 11:05:05] Plumbing command codeql database init completed.
+[2021-11-19 11:05:07] Using autobuild script C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\autobuild.cmd.
+[2021-11-19 11:05:07] [DETAILS] database create> Detected autobuild command for C#: C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\autobuild.cmd.
+[2021-11-19 11:05:07] [PROGRESS] database create> Running build command: [C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\autobuild.cmd]
+[2021-11-19 11:05:07] Running plumbing command: codeql database trace-command --working-dir=C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement --index-traceless-dbs --no-db-cluster -- C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\autobuild.cmd
+[2021-11-19 11:05:07] Setting up tracing from specification at C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\win64\compiler-tracing.spec.
+[2021-11-19 11:05:07] [PROGRESS] database trace-command> Running command in C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement: [C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\autobuild.cmd]
+[2021-11-19 11:05:08] [build-stdout] CodeQL C# autobuilder
+[2021-11-19 11:05:08] [build-stdout] Working directory: C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement
+[2021-11-19 11:05:08] [build-stdout] Attempting to build using .NET Core
+[2021-11-19 11:05:08] [build-stdout] Running cmd.exe /C dotnet --info
+[2021-11-19 11:05:08] [build-stdout] .NET SDK (reflecting any global.json):
+[2021-11-19 11:05:08] [build-stdout]  Version:   5.0.300
+[2021-11-19 11:05:08] [build-stdout]  Commit:    2e0c8c940e
+[2021-11-19 11:05:08] [build-stdout] Runtime Environment:
+[2021-11-19 11:05:08] [build-stdout]  OS Name:     Windows
+[2021-11-19 11:05:08] [build-stdout]  OS Version:  10.0.19043
+[2021-11-19 11:05:08] [build-stdout]  OS Platform: Windows
+[2021-11-19 11:05:08] [build-stdout]  RID:         win10-x64
+[2021-11-19 11:05:08] [build-stdout]  Base Path:   C:\Program Files\dotnet\sdk\5.0.300\
+[2021-11-19 11:05:08] [build-stdout] Host (useful for support):
+[2021-11-19 11:05:08] [build-stdout]   Version: 5.0.6
+[2021-11-19 11:05:08] [build-stdout]   Commit:  478b2f8c0e
+[2021-11-19 11:05:08] [build-stdout] .NET SDKs installed:
+[2021-11-19 11:05:08] [build-stdout]   5.0.300 [C:\Program Files\dotnet\sdk]
+[2021-11-19 11:05:08] [build-stdout] .NET runtimes installed:
+[2021-11-19 11:05:08] [build-stdout]   Microsoft.AspNetCore.App 3.1.15 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+[2021-11-19 11:05:08] [build-stdout]   Microsoft.AspNetCore.App 5.0.6 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+[2021-11-19 11:05:08] [build-stdout]   Microsoft.NETCore.App 3.1.15 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+[2021-11-19 11:05:08] [build-stdout]   Microsoft.NETCore.App 5.0.6 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+[2021-11-19 11:05:08] [build-stdout]   Microsoft.WindowsDesktop.App 3.1.15 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+[2021-11-19 11:05:08] [build-stdout]   Microsoft.WindowsDesktop.App 5.0.6 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+[2021-11-19 11:05:08] [build-stdout] To install additional .NET runtimes or SDKs:
+[2021-11-19 11:05:08] [build-stdout]   https://aka.ms/dotnet-download
+[2021-11-19 11:05:08] [build-stdout] Exit code 0
+[2021-11-19 11:05:08] [build-stdout] Running cmd.exe /C dotnet clean C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj
+[2021-11-19 11:05:10] [build-stdout] Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET
+[2021-11-19 11:05:10] [build-stdout] Copyright (C) Microsoft Corporation. All rights reserved.
+[2021-11-19 11:05:10] [build-stdout] Build started 11/19/2021 11:05:10 AM.
+[2021-11-19 11:05:12] [build-stdout]      1>Project "C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj" on node 1 (Clean target(s)).
+[2021-11-19 11:05:12] [build-stdout]      1>C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:05:12] [build-stdout]      1>CoreClean:
+[2021-11-19 11:05:12] [build-stdout]          Creating directory "obj\Debug\netcoreapp2.0\".
+[2021-11-19 11:05:12] [build-stdout]      1>Done Building Project "C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj" (Clean target(s)).
+[2021-11-19 11:05:12] [build-stdout] Build succeeded.
+[2021-11-19 11:05:12] [build-stdout]        "C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj" (Clean target) (1) ->
+[2021-11-19 11:05:12] [build-stdout]        (_CheckForEolTargetFrameworks target) -> 
+[2021-11-19 11:05:12] [build-stdout]          C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:05:12] [build-stdout]     1 Warning(s)
+[2021-11-19 11:05:12] [build-stdout]     0 Error(s)
+[2021-11-19 11:05:12] [build-stdout] Time Elapsed 00:00:01.54
+[2021-11-19 11:05:12] [build-stdout] Exit code 0
+[2021-11-19 11:05:12] [build-stdout] Running cmd.exe /C dotnet restore C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj
+[2021-11-19 11:05:15] [build-stdout]   Determining projects to restore...
+[2021-11-19 11:05:15] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:05:16] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:05:38] [build-stdout]   Restored C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj (in 22.04 sec).
+[2021-11-19 11:05:51] [build-stdout]   Restored C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj (in 35.5 sec).
+[2021-11-19 11:05:52] [build-stdout] Exit code 0
+[2021-11-19 11:05:52] [build-stdout] Running cmd.exe /C dotnet build --no-incremental /p:UseSharedCompilation=false C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj
+[2021-11-19 11:05:53] [build-stdout] Microsoft (R) Build Engine version 16.10.0+4242f381a for .NET
+[2021-11-19 11:05:53] [build-stdout] Copyright (C) Microsoft Corporation. All rights reserved.
+[2021-11-19 11:05:55] [build-stdout]   Determining projects to restore...
+[2021-11-19 11:05:55] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:05:55] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:05:56] [build-stdout]   All projects are up-to-date for restore.
+[2021-11-19 11:05:56] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:05:58] [build-stdout] Semmle.Extraction.CSharp.Driver: called with --clrtracer, --cil, /noconfig, @C:\Users\PENTES~1\AppData\Local\Temp\Sem6D99.tmp
+[2021-11-19 11:06:55] [build-stdout]   LibraryManagement -> C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\bin\Debug\netcoreapp2.0\LibraryManagement.dll
+[2021-11-19 11:06:55] [build-stdout] Build succeeded.
+[2021-11-19 11:06:55] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:06:55] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:06:55] [build-stdout] C:\Program Files\dotnet\sdk\5.0.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(28,5): warning NETSDK1138: The target framework 'netcoreapp2.0' is out of support and will not receive security updates in the future. Please refer to https://aka.ms/dotnet-core-support for more information about the support policy. [C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\LibraryManagement.csproj]
+[2021-11-19 11:06:55] [build-stdout]     3 Warning(s)
+[2021-11-19 11:06:55] [build-stdout]     0 Error(s)
+[2021-11-19 11:06:55] [build-stdout] Time Elapsed 00:01:01.10
+[2021-11-19 11:06:55] [build-stdout] Exit code 0
+[2021-11-19 11:06:55] Plumbing command codeql database trace-command completed.
+[2021-11-19 11:06:55] [PROGRESS] database create> Finalizing database at C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db.
+[2021-11-19 11:06:55] Running plumbing command: codeql database finalize --mode=normal --no-db-cluster -- C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db
+[2021-11-19 11:06:55] Using pre-finalize script C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\pre-finalize.cmd.
+[2021-11-19 11:06:55] [PROGRESS] database finalize> Running pre-finalize script C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\pre-finalize.cmd in C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement.
+[2021-11-19 11:06:55] Running plumbing command: codeql database trace-command --working-dir=C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement --no-tracing -- C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\pre-finalize.cmd
+[2021-11-19 11:06:55] [PROGRESS] database trace-command> Running command in C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement: [C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\tools\pre-finalize.cmd]
+[2021-11-19 11:07:00] Plumbing command codeql database trace-command completed.
+[2021-11-19 11:07:00] [PROGRESS] database finalize> Running TRAP import for CodeQL database at C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db...
+[2021-11-19 11:07:00] Running plumbing command: codeql dataset import --dbscheme=C:\Users\PenTester02\Downloads\codeql-bundle-win64\codeql\csharp\semmlecode.csharp.dbscheme -- C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\trap\csharp
+[2021-11-19 11:07:00] Clearing disk cache since the version file C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp\default\cache\version does not exist
+[2021-11-19 11:07:00] Tuple pool not found. Clearing relations with cached strings
+[2021-11-19 11:07:00] Trimming disk cache at C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp\default\cache in mode brutal.
+[2021-11-19 11:07:00] Sequence stamp origin is -6521650053086602951
+[2021-11-19 11:07:00] Pausing evaluation to hard-clear memory at sequence stamp o+0
+[2021-11-19 11:07:00] Unpausing evaluation
+[2021-11-19 11:07:00] Pausing evaluation to quickly trim disk at sequence stamp o+1
+[2021-11-19 11:07:00] Unpausing evaluation
+[2021-11-19 11:07:00] Pausing evaluation to zealously trim disk at sequence stamp o+2
+[2021-11-19 11:07:00] Unpausing evaluation
+[2021-11-19 11:07:00] Trimming completed (15ms): Purged everything.
+[2021-11-19 11:07:00] Scanning for files in C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\trap\csharp
+[2021-11-19 11:07:01] Importing Microsoft.ApplicationInsights.dll.cil.trap.gz (1 of 691)
+[2021-11-19 11:07:01] Importing Microsoft.ApplicationInsights.dll.trap.gz (2 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.ApplicationInsights.AspNetCore.dll.cil.trap.gz (3 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.ApplicationInsights.AspNetCore.dll.trap.gz (4 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AI.DependencyCollector.dll.cil.trap.gz (5 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AI.DependencyCollector.dll.trap.gz (6 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.dll.cil.trap.gz (7 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.dll.trap.gz (8 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Antiforgery.dll.cil.trap.gz (9 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Antiforgery.dll.trap.gz (10 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll.cil.trap.gz (11 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll.trap.gz (12 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.dll.cil.trap.gz (13 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.dll.trap.gz (14 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Abstractions.dll.cil.trap.gz (15 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Abstractions.dll.trap.gz (16 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Cookies.dll.cil.trap.gz (17 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Cookies.dll.trap.gz (18 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Core.dll.cil.trap.gz (19 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Core.dll.trap.gz (20 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Facebook.dll.cil.trap.gz (21 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Facebook.dll.trap.gz (22 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Google.dll.cil.trap.gz (23 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.Google.dll.trap.gz (24 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.JwtBearer.dll.cil.trap.gz (25 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.JwtBearer.dll.trap.gz (26 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll.cil.trap.gz (27 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll.trap.gz (28 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.OAuth.dll.cil.trap.gz (29 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.OAuth.dll.trap.gz (30 of 691)
+[2021-11-19 11:07:02] Importing Microsoft.AspNetCore.Authentication.OpenIdConnect.dll.cil.trap.gz (31 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Authentication.OpenIdConnect.dll.trap.gz (32 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Authentication.Twitter.dll.cil.trap.gz (33 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Authentication.Twitter.dll.trap.gz (34 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Authorization.dll.cil.trap.gz (35 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Authorization.dll.trap.gz (36 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Authorization.Policy.dll.cil.trap.gz (37 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Authorization.Policy.dll.trap.gz (38 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll.cil.trap.gz (39 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll.trap.gz (40 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.AzureAppServicesIntegration.dll.cil.trap.gz (41 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.AzureAppServicesIntegration.dll.trap.gz (42 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.CookiePolicy.dll.cil.trap.gz (43 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.CookiePolicy.dll.trap.gz (44 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Cors.dll.cil.trap.gz (45 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Cors.dll.trap.gz (46 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Cryptography.Internal.dll.cil.trap.gz (47 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Cryptography.Internal.dll.trap.gz (48 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Cryptography.KeyDerivation.dll.cil.trap.gz (49 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Cryptography.KeyDerivation.dll.trap.gz (50 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.dll.cil.trap.gz (51 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.dll.trap.gz (52 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.Abstractions.dll.cil.trap.gz (53 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.Abstractions.dll.trap.gz (54 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.AzureStorage.dll.cil.trap.gz (55 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.AzureStorage.dll.trap.gz (56 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.Extensions.dll.cil.trap.gz (57 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.DataProtection.Extensions.dll.trap.gz (58 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Diagnostics.dll.cil.trap.gz (59 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Diagnostics.dll.trap.gz (60 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Diagnostics.Abstractions.dll.cil.trap.gz (61 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Diagnostics.Abstractions.dll.trap.gz (62 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll.cil.trap.gz (63 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll.trap.gz (64 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Hosting.dll.cil.trap.gz (65 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Hosting.dll.trap.gz (66 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Hosting.Abstractions.dll.cil.trap.gz (67 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Hosting.Abstractions.dll.trap.gz (68 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Hosting.Server.Abstractions.dll.cil.trap.gz (69 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Hosting.Server.Abstractions.dll.trap.gz (70 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Html.Abstractions.dll.cil.trap.gz (71 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Html.Abstractions.dll.trap.gz (72 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Http.dll.cil.trap.gz (73 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Http.dll.trap.gz (74 of 691)
+[2021-11-19 11:07:03] Importing Microsoft.AspNetCore.Http.Abstractions.dll.cil.trap.gz (75 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Http.Abstractions.dll.trap.gz (76 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Http.Extensions.dll.cil.trap.gz (77 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Http.Extensions.dll.trap.gz (78 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Http.Features.dll.cil.trap.gz (79 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Http.Features.dll.trap.gz (80 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.HttpOverrides.dll.cil.trap.gz (81 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.HttpOverrides.dll.trap.gz (82 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Identity.dll.cil.trap.gz (83 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Identity.dll.trap.gz (84 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll.cil.trap.gz (85 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll.trap.gz (86 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.JsonPatch.dll.cil.trap.gz (87 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.JsonPatch.dll.trap.gz (88 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Localization.dll.cil.trap.gz (89 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Localization.dll.trap.gz (90 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Localization.Routing.dll.cil.trap.gz (91 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Localization.Routing.dll.trap.gz (92 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.MiddlewareAnalysis.dll.cil.trap.gz (93 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.MiddlewareAnalysis.dll.trap.gz (94 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Mvc.dll.cil.trap.gz (95 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Mvc.dll.trap.gz (96 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Mvc.Abstractions.dll.cil.trap.gz (97 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Mvc.Abstractions.dll.trap.gz (98 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Mvc.ApiExplorer.dll.cil.trap.gz (99 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Mvc.ApiExplorer.dll.trap.gz (100 of 691)
+[2021-11-19 11:07:04] Importing Microsoft.AspNetCore.Mvc.Core.dll.cil.trap.gz (101 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Core.dll.trap.gz (102 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Cors.dll.cil.trap.gz (103 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Cors.dll.trap.gz (104 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.DataAnnotations.dll.cil.trap.gz (105 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.DataAnnotations.dll.trap.gz (106 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Formatters.Json.dll.cil.trap.gz (107 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Formatters.Json.dll.trap.gz (108 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Formatters.Xml.dll.cil.trap.gz (109 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Formatters.Xml.dll.trap.gz (110 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Localization.dll.cil.trap.gz (111 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Localization.dll.trap.gz (112 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Razor.dll.cil.trap.gz (113 of 691)
+[2021-11-19 11:07:05] Importing Microsoft.AspNetCore.Mvc.Razor.dll.trap.gz (114 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.Razor.Extensions.dll.cil.trap.gz (115 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.Razor.Extensions.dll.trap.gz (116 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.RazorPages.dll.cil.trap.gz (117 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.RazorPages.dll.trap.gz (118 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.TagHelpers.dll.cil.trap.gz (119 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.TagHelpers.dll.trap.gz (120 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.ViewFeatures.dll.cil.trap.gz (121 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Mvc.ViewFeatures.dll.trap.gz (122 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.NodeServices.dll.cil.trap.gz (123 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.NodeServices.dll.trap.gz (124 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Owin.dll.cil.trap.gz (125 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Owin.dll.trap.gz (126 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Razor.dll.cil.trap.gz (127 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Razor.dll.trap.gz (128 of 691)
+[2021-11-19 11:07:06] Importing Microsoft.AspNetCore.Razor.Language.dll.cil.trap.gz (129 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Razor.Language.dll.trap.gz (130 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Razor.Runtime.dll.cil.trap.gz (131 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Razor.Runtime.dll.trap.gz (132 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.ResponseCaching.dll.cil.trap.gz (133 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.ResponseCaching.dll.trap.gz (134 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.ResponseCaching.Abstractions.dll.cil.trap.gz (135 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.ResponseCaching.Abstractions.dll.trap.gz (136 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.ResponseCompression.dll.cil.trap.gz (137 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.ResponseCompression.dll.trap.gz (138 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Rewrite.dll.cil.trap.gz (139 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Rewrite.dll.trap.gz (140 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Routing.dll.cil.trap.gz (141 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Routing.dll.trap.gz (142 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Routing.Abstractions.dll.cil.trap.gz (143 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Routing.Abstractions.dll.trap.gz (144 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Server.HttpSys.dll.cil.trap.gz (145 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Server.HttpSys.dll.trap.gz (146 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Server.IISIntegration.dll.cil.trap.gz (147 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Server.IISIntegration.dll.trap.gz (148 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Server.Kestrel.dll.cil.trap.gz (149 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Server.Kestrel.dll.trap.gz (150 of 691)
+[2021-11-19 11:07:07] Importing Microsoft.AspNetCore.Server.Kestrel.Core.dll.cil.trap.gz (151 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Server.Kestrel.Core.dll.trap.gz (152 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Server.Kestrel.Https.dll.cil.trap.gz (153 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Server.Kestrel.Https.dll.trap.gz (154 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll.cil.trap.gz (155 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll.trap.gz (156 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll.cil.trap.gz (157 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll.trap.gz (158 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Session.dll.cil.trap.gz (159 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.Session.dll.trap.gz (160 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.SpaServices.dll.cil.trap.gz (161 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.SpaServices.dll.trap.gz (162 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.StaticFiles.dll.cil.trap.gz (163 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.StaticFiles.dll.trap.gz (164 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.WebSockets.dll.cil.trap.gz (165 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.WebSockets.dll.trap.gz (166 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.WebUtilities.dll.cil.trap.gz (167 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.AspNetCore.WebUtilities.dll.trap.gz (168 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.Azure.KeyVault.dll.cil.trap.gz (169 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.Azure.KeyVault.dll.trap.gz (170 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.Azure.KeyVault.WebKey.dll.cil.trap.gz (171 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.Azure.KeyVault.WebKey.dll.trap.gz (172 of 691)
+[2021-11-19 11:07:08] Importing Microsoft.CodeAnalysis.dll.cil.trap.gz (173 of 691)
+[2021-11-19 11:07:10] Importing Microsoft.CodeAnalysis.dll.trap.gz (174 of 691)
+[2021-11-19 11:07:10] Importing Microsoft.CodeAnalysis.CSharp.dll.cil.trap.gz (175 of 691)
+[2021-11-19 11:07:13] Importing Microsoft.CodeAnalysis.CSharp.dll.trap.gz (176 of 691)
+[2021-11-19 11:07:14] Importing Microsoft.CodeAnalysis.CSharp.Workspaces.dll.cil.trap.gz (177 of 691)
+[2021-11-19 11:07:15] Importing Microsoft.CodeAnalysis.CSharp.Workspaces.dll.trap.gz (178 of 691)
+[2021-11-19 11:07:15] Importing Microsoft.CodeAnalysis.Razor.dll.cil.trap.gz (179 of 691)
+[2021-11-19 11:07:15] Importing Microsoft.CodeAnalysis.Razor.dll.trap.gz (180 of 691)
+[2021-11-19 11:07:15] Importing Microsoft.CodeAnalysis.Workspaces.dll.cil.trap.gz (181 of 691)
+[2021-11-19 11:07:18] Importing Microsoft.CodeAnalysis.Workspaces.dll.trap.gz (182 of 691)
+[2021-11-19 11:07:19] Importing Microsoft.Data.Edm.dll.cil.trap.gz (183 of 691)
+[2021-11-19 11:07:19] Importing Microsoft.Data.Edm.dll.trap.gz (184 of 691)
+[2021-11-19 11:07:19] Importing Microsoft.Data.OData.dll.cil.trap.gz (185 of 691)
+[2021-11-19 11:07:20] Importing Microsoft.Data.OData.dll.trap.gz (186 of 691)
+[2021-11-19 11:07:21] Importing Microsoft.Data.Sqlite.dll.cil.trap.gz (187 of 691)
+[2021-11-19 11:07:21] Importing Microsoft.Data.Sqlite.dll.trap.gz (188 of 691)
+[2021-11-19 11:07:21] Importing Microsoft.DotNet.PlatformAbstractions.dll.cil.trap.gz (189 of 691)
+[2021-11-19 11:07:21] Importing Microsoft.DotNet.PlatformAbstractions.dll.trap.gz (190 of 691)
+[2021-11-19 11:07:21] Importing Microsoft.EntityFrameworkCore.dll.cil.trap.gz (191 of 691)
+[2021-11-19 11:07:22] Importing Microsoft.EntityFrameworkCore.dll.trap.gz (192 of 691)
+[2021-11-19 11:07:22] Importing Microsoft.EntityFrameworkCore.Design.dll.cil.trap.gz (193 of 691)
+[2021-11-19 11:07:22] Importing Microsoft.EntityFrameworkCore.Design.dll.trap.gz (194 of 691)
+[2021-11-19 11:07:22] Importing Microsoft.EntityFrameworkCore.InMemory.dll.cil.trap.gz (195 of 691)
+[2021-11-19 11:07:22] Importing Microsoft.EntityFrameworkCore.InMemory.dll.trap.gz (196 of 691)
+[2021-11-19 11:07:22] Importing Microsoft.EntityFrameworkCore.Relational.dll.cil.trap.gz (197 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.EntityFrameworkCore.Relational.dll.trap.gz (198 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.EntityFrameworkCore.Sqlite.dll.cil.trap.gz (199 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.EntityFrameworkCore.Sqlite.dll.trap.gz (200 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.EntityFrameworkCore.SqlServer.dll.cil.trap.gz (201 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.EntityFrameworkCore.SqlServer.dll.trap.gz (202 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.Abstractions.dll.cil.trap.gz (203 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.Abstractions.dll.trap.gz (204 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.Memory.dll.cil.trap.gz (205 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.Memory.dll.trap.gz (206 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.Redis.dll.cil.trap.gz (207 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.Redis.dll.trap.gz (208 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.SqlServer.dll.cil.trap.gz (209 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Caching.SqlServer.dll.trap.gz (210 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.dll.cil.trap.gz (211 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.dll.trap.gz (212 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Abstractions.dll.cil.trap.gz (213 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Abstractions.dll.trap.gz (214 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.AzureKeyVault.dll.cil.trap.gz (215 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.AzureKeyVault.dll.trap.gz (216 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Binder.dll.cil.trap.gz (217 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Binder.dll.trap.gz (218 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.CommandLine.dll.cil.trap.gz (219 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.CommandLine.dll.trap.gz (220 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.EnvironmentVariables.dll.cil.trap.gz (221 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.EnvironmentVariables.dll.trap.gz (222 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.FileExtensions.dll.cil.trap.gz (223 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.FileExtensions.dll.trap.gz (224 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Ini.dll.cil.trap.gz (225 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Ini.dll.trap.gz (226 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Json.dll.cil.trap.gz (227 of 691)
+[2021-11-19 11:07:23] Importing Microsoft.Extensions.Configuration.Json.dll.trap.gz (228 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Configuration.UserSecrets.dll.cil.trap.gz (229 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Configuration.UserSecrets.dll.trap.gz (230 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Configuration.Xml.dll.cil.trap.gz (231 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Configuration.Xml.dll.trap.gz (232 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DependencyInjection.dll.cil.trap.gz (233 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DependencyInjection.dll.trap.gz (234 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DependencyInjection.Abstractions.dll.cil.trap.gz (235 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DependencyInjection.Abstractions.dll.trap.gz (236 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DependencyModel.dll.cil.trap.gz (237 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DependencyModel.dll.trap.gz (238 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DiagnosticAdapter.dll.cil.trap.gz (239 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.DiagnosticAdapter.dll.trap.gz (240 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Abstractions.dll.cil.trap.gz (241 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Abstractions.dll.trap.gz (242 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Composite.dll.cil.trap.gz (243 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Composite.dll.trap.gz (244 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Embedded.dll.cil.trap.gz (245 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Embedded.dll.trap.gz (246 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Physical.dll.cil.trap.gz (247 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileProviders.Physical.dll.trap.gz (248 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileSystemGlobbing.dll.cil.trap.gz (249 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.FileSystemGlobbing.dll.trap.gz (250 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Hosting.Abstractions.dll.cil.trap.gz (251 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Hosting.Abstractions.dll.trap.gz (252 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Identity.Core.dll.cil.trap.gz (253 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Identity.Core.dll.trap.gz (254 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Identity.Stores.dll.cil.trap.gz (255 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Identity.Stores.dll.trap.gz (256 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Localization.dll.cil.trap.gz (257 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Localization.dll.trap.gz (258 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Localization.Abstractions.dll.cil.trap.gz (259 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Localization.Abstractions.dll.trap.gz (260 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.dll.cil.trap.gz (261 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.dll.trap.gz (262 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Abstractions.dll.cil.trap.gz (263 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Abstractions.dll.trap.gz (264 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.AzureAppServices.dll.cil.trap.gz (265 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.AzureAppServices.dll.trap.gz (266 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Configuration.dll.cil.trap.gz (267 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Configuration.dll.trap.gz (268 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Console.dll.cil.trap.gz (269 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Console.dll.trap.gz (270 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Debug.dll.cil.trap.gz (271 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.Debug.dll.trap.gz (272 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.EventSource.dll.cil.trap.gz (273 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.EventSource.dll.trap.gz (274 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.TraceSource.dll.cil.trap.gz (275 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Logging.TraceSource.dll.trap.gz (276 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.ObjectPool.dll.cil.trap.gz (277 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.ObjectPool.dll.trap.gz (278 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Options.dll.cil.trap.gz (279 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Options.dll.trap.gz (280 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Options.ConfigurationExtensions.dll.cil.trap.gz (281 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Options.ConfigurationExtensions.dll.trap.gz (282 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.PlatformAbstractions.dll.cil.trap.gz (283 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.PlatformAbstractions.dll.trap.gz (284 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Primitives.dll.cil.trap.gz (285 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.Primitives.dll.trap.gz (286 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.WebEncoders.dll.cil.trap.gz (287 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.Extensions.WebEncoders.dll.trap.gz (288 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll.cil.trap.gz (289 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll.trap.gz (290 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.IdentityModel.Clients.ActiveDirectory.dll.cil.trap.gz (291 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.IdentityModel.Clients.ActiveDirectory.dll.trap.gz (292 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.IdentityModel.Logging.dll.cil.trap.gz (293 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.IdentityModel.Logging.dll.trap.gz (294 of 691)
+[2021-11-19 11:07:24] Importing Microsoft.IdentityModel.Protocols.dll.cil.trap.gz (295 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.IdentityModel.Protocols.dll.trap.gz (296 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.IdentityModel.Protocols.OpenIdConnect.dll.cil.trap.gz (297 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.IdentityModel.Protocols.OpenIdConnect.dll.trap.gz (298 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.IdentityModel.Tokens.dll.cil.trap.gz (299 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.IdentityModel.Tokens.dll.trap.gz (300 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.Net.Http.Headers.dll.cil.trap.gz (301 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.Net.Http.Headers.dll.trap.gz (302 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.CSharp.dll.cil.trap.gz (303 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.CSharp.dll.trap.gz (304 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.VisualBasic.dll.cil.trap.gz (305 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.VisualBasic.dll.trap.gz (306 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.Win32.Primitives.dll.cil.trap.gz (307 of 691)
+[2021-11-19 11:07:25] Importing Microsoft.Win32.Primitives.dll.trap.gz (308 of 691)
+[2021-11-19 11:07:25] Importing System.AppContext.dll.cil.trap.gz (309 of 691)
+[2021-11-19 11:07:25] Importing System.AppContext.dll.trap.gz (310 of 691)
+[2021-11-19 11:07:25] Importing System.Buffers.dll.cil.trap.gz (311 of 691)
+[2021-11-19 11:07:25] Importing System.Buffers.dll.trap.gz (312 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.Concurrent.dll.cil.trap.gz (313 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.Concurrent.dll.trap.gz (314 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.Immutable.dll.cil.trap.gz (315 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.Immutable.dll.trap.gz (316 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.NonGeneric.dll.cil.trap.gz (317 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.NonGeneric.dll.trap.gz (318 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.Specialized.dll.cil.trap.gz (319 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.Specialized.dll.trap.gz (320 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.dll.cil.trap.gz (321 of 691)
+[2021-11-19 11:07:25] Importing System.Collections.dll.trap.gz (322 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.Annotations.dll.cil.trap.gz (323 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.Annotations.dll.trap.gz (324 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.Composition.dll.cil.trap.gz (325 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.Composition.dll.trap.gz (326 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.DataAnnotations.dll.cil.trap.gz (327 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.DataAnnotations.dll.trap.gz (328 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.EventBasedAsync.dll.cil.trap.gz (329 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.EventBasedAsync.dll.trap.gz (330 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.Primitives.dll.cil.trap.gz (331 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.Primitives.dll.trap.gz (332 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.TypeConverter.dll.cil.trap.gz (333 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.TypeConverter.dll.trap.gz (334 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.dll.cil.trap.gz (335 of 691)
+[2021-11-19 11:07:25] Importing System.ComponentModel.dll.trap.gz (336 of 691)
+[2021-11-19 11:07:25] Importing System.Configuration.dll.cil.trap.gz (337 of 691)
+[2021-11-19 11:07:25] Importing System.Configuration.dll.trap.gz (338 of 691)
+[2021-11-19 11:07:25] Importing System.Console.dll.cil.trap.gz (339 of 691)
+[2021-11-19 11:07:25] Importing System.Console.dll.trap.gz (340 of 691)
+[2021-11-19 11:07:25] Importing System.Core.dll.cil.trap.gz (341 of 691)
+[2021-11-19 11:07:25] Importing System.Core.dll.trap.gz (342 of 691)
+[2021-11-19 11:07:25] Importing System.Data.Common.dll.cil.trap.gz (343 of 691)
+[2021-11-19 11:07:25] Importing System.Data.Common.dll.trap.gz (344 of 691)
+[2021-11-19 11:07:25] Importing System.Data.dll.cil.trap.gz (345 of 691)
+[2021-11-19 11:07:25] Importing System.Data.dll.trap.gz (346 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Contracts.dll.cil.trap.gz (347 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Contracts.dll.trap.gz (348 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Debug.dll.cil.trap.gz (349 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Debug.dll.trap.gz (350 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.DiagnosticSource.dll.cil.trap.gz (351 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.DiagnosticSource.dll.trap.gz (352 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.FileVersionInfo.dll.cil.trap.gz (353 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.FileVersionInfo.dll.trap.gz (354 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Process.dll.cil.trap.gz (355 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Process.dll.trap.gz (356 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.StackTrace.dll.cil.trap.gz (357 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.StackTrace.dll.trap.gz (358 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.TextWriterTraceListener.dll.cil.trap.gz (359 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.TextWriterTraceListener.dll.trap.gz (360 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Tools.dll.cil.trap.gz (361 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Tools.dll.trap.gz (362 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.TraceSource.dll.cil.trap.gz (363 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.TraceSource.dll.trap.gz (364 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Tracing.dll.cil.trap.gz (365 of 691)
+[2021-11-19 11:07:25] Importing System.Diagnostics.Tracing.dll.trap.gz (366 of 691)
+[2021-11-19 11:07:25] Importing System.Drawing.Primitives.dll.cil.trap.gz (367 of 691)
+[2021-11-19 11:07:25] Importing System.Drawing.Primitives.dll.trap.gz (368 of 691)
+[2021-11-19 11:07:25] Importing System.Drawing.dll.cil.trap.gz (369 of 691)
+[2021-11-19 11:07:25] Importing System.Drawing.dll.trap.gz (370 of 691)
+[2021-11-19 11:07:25] Importing System.Dynamic.Runtime.dll.cil.trap.gz (371 of 691)
+[2021-11-19 11:07:25] Importing System.Dynamic.Runtime.dll.trap.gz (372 of 691)
+[2021-11-19 11:07:25] Importing System.Globalization.Calendars.dll.cil.trap.gz (373 of 691)
+[2021-11-19 11:07:25] Importing System.Globalization.Calendars.dll.trap.gz (374 of 691)
+[2021-11-19 11:07:25] Importing System.Globalization.Extensions.dll.cil.trap.gz (375 of 691)
+[2021-11-19 11:07:25] Importing System.Globalization.Extensions.dll.trap.gz (376 of 691)
+[2021-11-19 11:07:25] Importing System.Globalization.dll.cil.trap.gz (377 of 691)
+[2021-11-19 11:07:25] Importing System.Globalization.dll.trap.gz (378 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Compression.FileSystem.dll.cil.trap.gz (379 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Compression.FileSystem.dll.trap.gz (380 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Compression.ZipFile.dll.cil.trap.gz (381 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Compression.ZipFile.dll.trap.gz (382 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Compression.dll.cil.trap.gz (383 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Compression.dll.trap.gz (384 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.DriveInfo.dll.cil.trap.gz (385 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.DriveInfo.dll.trap.gz (386 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.Primitives.dll.cil.trap.gz (387 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.Primitives.dll.trap.gz (388 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.Watcher.dll.cil.trap.gz (389 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.Watcher.dll.trap.gz (390 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.dll.cil.trap.gz (391 of 691)
+[2021-11-19 11:07:25] Importing System.IO.FileSystem.dll.trap.gz (392 of 691)
+[2021-11-19 11:07:25] Importing System.IO.IsolatedStorage.dll.cil.trap.gz (393 of 691)
+[2021-11-19 11:07:25] Importing System.IO.IsolatedStorage.dll.trap.gz (394 of 691)
+[2021-11-19 11:07:25] Importing System.IO.MemoryMappedFiles.dll.cil.trap.gz (395 of 691)
+[2021-11-19 11:07:25] Importing System.IO.MemoryMappedFiles.dll.trap.gz (396 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Pipes.dll.cil.trap.gz (397 of 691)
+[2021-11-19 11:07:25] Importing System.IO.Pipes.dll.trap.gz (398 of 691)
+[2021-11-19 11:07:25] Importing System.IO.UnmanagedMemoryStream.dll.cil.trap.gz (399 of 691)
+[2021-11-19 11:07:25] Importing System.IO.UnmanagedMemoryStream.dll.trap.gz (400 of 691)
+[2021-11-19 11:07:25] Importing System.IO.dll.cil.trap.gz (401 of 691)
+[2021-11-19 11:07:25] Importing System.IO.dll.trap.gz (402 of 691)
+[2021-11-19 11:07:25] Importing System.Linq.Expressions.dll.cil.trap.gz (403 of 691)
+[2021-11-19 11:07:25] Importing System.Linq.Expressions.dll.trap.gz (404 of 691)
+[2021-11-19 11:07:25] Importing System.Linq.Parallel.dll.cil.trap.gz (405 of 691)
+[2021-11-19 11:07:25] Importing System.Linq.Parallel.dll.trap.gz (406 of 691)
+[2021-11-19 11:07:25] Importing System.Linq.Queryable.dll.cil.trap.gz (407 of 691)
+[2021-11-19 11:07:25] Importing System.Linq.Queryable.dll.trap.gz (408 of 691)
+[2021-11-19 11:07:26] Importing System.Linq.dll.cil.trap.gz (409 of 691)
+[2021-11-19 11:07:26] Importing System.Linq.dll.trap.gz (410 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Http.dll.cil.trap.gz (411 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Http.dll.trap.gz (412 of 691)
+[2021-11-19 11:07:26] Importing System.Net.HttpListener.dll.cil.trap.gz (413 of 691)
+[2021-11-19 11:07:26] Importing System.Net.HttpListener.dll.trap.gz (414 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Mail.dll.cil.trap.gz (415 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Mail.dll.trap.gz (416 of 691)
+[2021-11-19 11:07:26] Importing System.Net.NameResolution.dll.cil.trap.gz (417 of 691)
+[2021-11-19 11:07:26] Importing System.Net.NameResolution.dll.trap.gz (418 of 691)
+[2021-11-19 11:07:26] Importing System.Net.NetworkInformation.dll.cil.trap.gz (419 of 691)
+[2021-11-19 11:07:26] Importing System.Net.NetworkInformation.dll.trap.gz (420 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Ping.dll.cil.trap.gz (421 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Ping.dll.trap.gz (422 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Primitives.dll.cil.trap.gz (423 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Primitives.dll.trap.gz (424 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Requests.dll.cil.trap.gz (425 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Requests.dll.trap.gz (426 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Security.dll.cil.trap.gz (427 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Security.dll.trap.gz (428 of 691)
+[2021-11-19 11:07:26] Importing System.Net.ServicePoint.dll.cil.trap.gz (429 of 691)
+[2021-11-19 11:07:26] Importing System.Net.ServicePoint.dll.trap.gz (430 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Sockets.dll.cil.trap.gz (431 of 691)
+[2021-11-19 11:07:26] Importing System.Net.Sockets.dll.trap.gz (432 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebClient.dll.cil.trap.gz (433 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebClient.dll.trap.gz (434 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebHeaderCollection.dll.cil.trap.gz (435 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebHeaderCollection.dll.trap.gz (436 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebProxy.dll.cil.trap.gz (437 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebProxy.dll.trap.gz (438 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebSockets.Client.dll.cil.trap.gz (439 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebSockets.Client.dll.trap.gz (440 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebSockets.dll.cil.trap.gz (441 of 691)
+[2021-11-19 11:07:26] Importing System.Net.WebSockets.dll.trap.gz (442 of 691)
+[2021-11-19 11:07:26] Importing System.Net.dll.cil.trap.gz (443 of 691)
+[2021-11-19 11:07:26] Importing System.Net.dll.trap.gz (444 of 691)
+[2021-11-19 11:07:26] Importing System.Numerics.Vectors.dll.cil.trap.gz (445 of 691)
+[2021-11-19 11:07:26] Importing System.Numerics.Vectors.dll.trap.gz (446 of 691)
+[2021-11-19 11:07:26] Importing System.Numerics.dll.cil.trap.gz (447 of 691)
+[2021-11-19 11:07:26] Importing System.Numerics.dll.trap.gz (448 of 691)
+[2021-11-19 11:07:26] Importing System.ObjectModel.dll.cil.trap.gz (449 of 691)
+[2021-11-19 11:07:26] Importing System.ObjectModel.dll.trap.gz (450 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.DispatchProxy.dll.cil.trap.gz (451 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.DispatchProxy.dll.trap.gz (452 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Emit.ILGeneration.dll.cil.trap.gz (453 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Emit.ILGeneration.dll.trap.gz (454 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Emit.Lightweight.dll.cil.trap.gz (455 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Emit.Lightweight.dll.trap.gz (456 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Emit.dll.cil.trap.gz (457 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Emit.dll.trap.gz (458 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Extensions.dll.cil.trap.gz (459 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Extensions.dll.trap.gz (460 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Metadata.dll.cil.trap.gz (461 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Metadata.dll.trap.gz (462 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Primitives.dll.cil.trap.gz (463 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.Primitives.dll.trap.gz (464 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.TypeExtensions.dll.cil.trap.gz (465 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.TypeExtensions.dll.trap.gz (466 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.dll.cil.trap.gz (467 of 691)
+[2021-11-19 11:07:26] Importing System.Reflection.dll.trap.gz (468 of 691)
+[2021-11-19 11:07:26] Importing System.Resources.Reader.dll.cil.trap.gz (469 of 691)
+[2021-11-19 11:07:26] Importing System.Resources.Reader.dll.trap.gz (470 of 691)
+[2021-11-19 11:07:26] Importing System.Resources.ResourceManager.dll.cil.trap.gz (471 of 691)
+[2021-11-19 11:07:26] Importing System.Resources.ResourceManager.dll.trap.gz (472 of 691)
+[2021-11-19 11:07:26] Importing System.Resources.Writer.dll.cil.trap.gz (473 of 691)
+[2021-11-19 11:07:26] Importing System.Resources.Writer.dll.trap.gz (474 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.CompilerServices.VisualC.dll.cil.trap.gz (475 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.CompilerServices.VisualC.dll.trap.gz (476 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Extensions.dll.cil.trap.gz (477 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Extensions.dll.trap.gz (478 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Handles.dll.cil.trap.gz (479 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Handles.dll.trap.gz (480 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.InteropServices.RuntimeInformation.dll.cil.trap.gz (481 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.InteropServices.RuntimeInformation.dll.trap.gz (482 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.InteropServices.WindowsRuntime.dll.cil.trap.gz (483 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.InteropServices.WindowsRuntime.dll.trap.gz (484 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.InteropServices.dll.cil.trap.gz (485 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.InteropServices.dll.trap.gz (486 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Loader.dll.cil.trap.gz (487 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Loader.dll.trap.gz (488 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Numerics.dll.cil.trap.gz (489 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Numerics.dll.trap.gz (490 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Formatters.dll.cil.trap.gz (491 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Formatters.dll.trap.gz (492 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Json.dll.cil.trap.gz (493 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Json.dll.trap.gz (494 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Primitives.dll.cil.trap.gz (495 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Primitives.dll.trap.gz (496 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Xml.dll.cil.trap.gz (497 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.Xml.dll.trap.gz (498 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.dll.cil.trap.gz (499 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.Serialization.dll.trap.gz (500 of 691)
+[2021-11-19 11:07:26] Importing System.Runtime.dll.cil.trap.gz (501 of 691)
+[2021-11-19 11:07:27] Importing System.Runtime.dll.trap.gz (502 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Claims.dll.cil.trap.gz (503 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Claims.dll.trap.gz (504 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Algorithms.dll.cil.trap.gz (505 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Algorithms.dll.trap.gz (506 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Csp.dll.cil.trap.gz (507 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Csp.dll.trap.gz (508 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Encoding.dll.cil.trap.gz (509 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Encoding.dll.trap.gz (510 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Primitives.dll.cil.trap.gz (511 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.Primitives.dll.trap.gz (512 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.X509Certificates.dll.cil.trap.gz (513 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Cryptography.X509Certificates.dll.trap.gz (514 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Principal.dll.cil.trap.gz (515 of 691)
+[2021-11-19 11:07:27] Importing System.Security.Principal.dll.trap.gz (516 of 691)
+[2021-11-19 11:07:27] Importing System.Security.SecureString.dll.cil.trap.gz (517 of 691)
+[2021-11-19 11:07:27] Importing System.Security.SecureString.dll.trap.gz (518 of 691)
+[2021-11-19 11:07:27] Importing System.Security.dll.cil.trap.gz (519 of 691)
+[2021-11-19 11:07:27] Importing System.Security.dll.trap.gz (520 of 691)
+[2021-11-19 11:07:27] Importing System.ServiceModel.Web.dll.cil.trap.gz (521 of 691)
+[2021-11-19 11:07:27] Importing System.ServiceModel.Web.dll.trap.gz (522 of 691)
+[2021-11-19 11:07:27] Importing System.ServiceProcess.dll.cil.trap.gz (523 of 691)
+[2021-11-19 11:07:27] Importing System.ServiceProcess.dll.trap.gz (524 of 691)
+[2021-11-19 11:07:27] Importing System.Text.Encoding.Extensions.dll.cil.trap.gz (525 of 691)
+[2021-11-19 11:07:27] Importing System.Text.Encoding.Extensions.dll.trap.gz (526 of 691)
+[2021-11-19 11:07:27] Importing System.Text.Encoding.dll.cil.trap.gz (527 of 691)
+[2021-11-19 11:07:27] Importing System.Text.Encoding.dll.trap.gz (528 of 691)
+[2021-11-19 11:07:27] Importing System.Text.RegularExpressions.dll.cil.trap.gz (529 of 691)
+[2021-11-19 11:07:27] Importing System.Text.RegularExpressions.dll.trap.gz (530 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Overlapped.dll.cil.trap.gz (531 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Overlapped.dll.trap.gz (532 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.Dataflow.dll.cil.trap.gz (533 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.Dataflow.dll.trap.gz (534 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.Extensions.dll.cil.trap.gz (535 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.Extensions.dll.trap.gz (536 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.Parallel.dll.cil.trap.gz (537 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.Parallel.dll.trap.gz (538 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.dll.cil.trap.gz (539 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Tasks.dll.trap.gz (540 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Thread.dll.cil.trap.gz (541 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Thread.dll.trap.gz (542 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.ThreadPool.dll.cil.trap.gz (543 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.ThreadPool.dll.trap.gz (544 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Timer.dll.cil.trap.gz (545 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.Timer.dll.trap.gz (546 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.dll.cil.trap.gz (547 of 691)
+[2021-11-19 11:07:27] Importing System.Threading.dll.trap.gz (548 of 691)
+[2021-11-19 11:07:27] Importing System.Transactions.Local.dll.cil.trap.gz (549 of 691)
+[2021-11-19 11:07:27] Importing System.Transactions.Local.dll.trap.gz (550 of 691)
+[2021-11-19 11:07:27] Importing System.Transactions.dll.cil.trap.gz (551 of 691)
+[2021-11-19 11:07:27] Importing System.Transactions.dll.trap.gz (552 of 691)
+[2021-11-19 11:07:27] Importing System.ValueTuple.dll.cil.trap.gz (553 of 691)
+[2021-11-19 11:07:27] Importing System.ValueTuple.dll.trap.gz (554 of 691)
+[2021-11-19 11:07:27] Importing System.Web.HttpUtility.dll.cil.trap.gz (555 of 691)
+[2021-11-19 11:07:27] Importing System.Web.HttpUtility.dll.trap.gz (556 of 691)
+[2021-11-19 11:07:27] Importing System.Web.dll.cil.trap.gz (557 of 691)
+[2021-11-19 11:07:27] Importing System.Web.dll.trap.gz (558 of 691)
+[2021-11-19 11:07:27] Importing System.Windows.dll.cil.trap.gz (559 of 691)
+[2021-11-19 11:07:27] Importing System.Windows.dll.trap.gz (560 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.Linq.dll.cil.trap.gz (561 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.Linq.dll.trap.gz (562 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.ReaderWriter.dll.cil.trap.gz (563 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.ReaderWriter.dll.trap.gz (564 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.Serialization.dll.cil.trap.gz (565 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.Serialization.dll.trap.gz (566 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XDocument.dll.cil.trap.gz (567 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XDocument.dll.trap.gz (568 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XPath.XDocument.dll.cil.trap.gz (569 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XPath.XDocument.dll.trap.gz (570 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XPath.dll.cil.trap.gz (571 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XPath.dll.trap.gz (572 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XmlDocument.dll.cil.trap.gz (573 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XmlDocument.dll.trap.gz (574 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XmlSerializer.dll.cil.trap.gz (575 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.XmlSerializer.dll.trap.gz (576 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.dll.cil.trap.gz (577 of 691)
+[2021-11-19 11:07:27] Importing System.Xml.dll.trap.gz (578 of 691)
+[2021-11-19 11:07:27] Importing System.dll.cil.trap.gz (579 of 691)
+[2021-11-19 11:07:27] Importing System.dll.trap.gz (580 of 691)
+[2021-11-19 11:07:27] Importing WindowsBase.dll.cil.trap.gz (581 of 691)
+[2021-11-19 11:07:27] Importing WindowsBase.dll.trap.gz (582 of 691)
+[2021-11-19 11:07:27] Importing mscorlib.dll.cil.trap.gz (583 of 691)
+[2021-11-19 11:07:27] Importing mscorlib.dll.trap.gz (584 of 691)
+[2021-11-19 11:07:27] Importing netstandard.dll.cil.trap.gz (585 of 691)
+[2021-11-19 11:07:27] Importing netstandard.dll.trap.gz (586 of 691)
+[2021-11-19 11:07:27] Importing Microsoft.Rest.ClientRuntime.dll.cil.trap.gz (587 of 691)
+[2021-11-19 11:07:27] Importing Microsoft.Rest.ClientRuntime.dll.trap.gz (588 of 691)
+[2021-11-19 11:07:27] Importing Microsoft.Rest.ClientRuntime.Azure.dll.cil.trap.gz (589 of 691)
+[2021-11-19 11:07:27] Importing Microsoft.Rest.ClientRuntime.Azure.dll.trap.gz (590 of 691)
+[2021-11-19 11:07:27] Importing Microsoft.VisualStudio.Web.BrowserLink.dll.cil.trap.gz (591 of 691)
+[2021-11-19 11:07:27] Importing Microsoft.VisualStudio.Web.BrowserLink.dll.trap.gz (592 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.dll.cil.trap.gz (593 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.dll.trap.gz (594 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll.cil.trap.gz (595 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll.trap.gz (596 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Core.dll.cil.trap.gz (597 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Core.dll.trap.gz (598 of 691)
+[2021-11-19 11:07:28] Importing dotnet-aspnet-codegenerator-design.dll.cil.trap.gz (599 of 691)
+[2021-11-19 11:07:28] Importing dotnet-aspnet-codegenerator-design.dll.trap.gz (600 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll.cil.trap.gz (601 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll.trap.gz (602 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll.cil.trap.gz (603 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll.trap.gz (604 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll.cil.trap.gz (605 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll.trap.gz (606 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll.cil.trap.gz (607 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll.trap.gz (608 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.Win32.Registry.dll.cil.trap.gz (609 of 691)
+[2021-11-19 11:07:28] Importing Microsoft.Win32.Registry.dll.trap.gz (610 of 691)
+[2021-11-19 11:07:28] Importing Newtonsoft.Json.dll.cil.trap.gz (611 of 691)
+[2021-11-19 11:07:28] Importing Newtonsoft.Json.dll.trap.gz (612 of 691)
+[2021-11-19 11:07:29] Importing Newtonsoft.Json.Bson.dll.cil.trap.gz (613 of 691)
+[2021-11-19 11:07:29] Importing Newtonsoft.Json.Bson.dll.trap.gz (614 of 691)
+[2021-11-19 11:07:29] Importing NuGet.Frameworks.dll.cil.trap.gz (615 of 691)
+[2021-11-19 11:07:29] Importing NuGet.Frameworks.dll.trap.gz (616 of 691)
+[2021-11-19 11:07:29] Importing Remotion.Linq.dll.cil.trap.gz (617 of 691)
+[2021-11-19 11:07:29] Importing Remotion.Linq.dll.trap.gz (618 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.batteries_green.dll.cil.trap.gz (619 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.batteries_green.dll.trap.gz (620 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.batteries_v2.dll.cil.trap.gz (621 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.batteries_v2.dll.trap.gz (622 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.core.dll.cil.trap.gz (623 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.core.dll.trap.gz (624 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.provider.e_sqlite3.dll.cil.trap.gz (625 of 691)
+[2021-11-19 11:07:29] Importing SQLitePCLRaw.provider.e_sqlite3.dll.trap.gz (626 of 691)
+[2021-11-19 11:07:29] Importing StackExchange.Redis.StrongName.dll.cil.trap.gz (627 of 691)
+[2021-11-19 11:07:29] Importing StackExchange.Redis.StrongName.dll.trap.gz (628 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.AttributedModel.dll.cil.trap.gz (629 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.AttributedModel.dll.trap.gz (630 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.Convention.dll.cil.trap.gz (631 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.Convention.dll.trap.gz (632 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.Hosting.dll.cil.trap.gz (633 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.Hosting.dll.trap.gz (634 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.Runtime.dll.cil.trap.gz (635 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.Runtime.dll.trap.gz (636 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.TypedParts.dll.cil.trap.gz (637 of 691)
+[2021-11-19 11:07:29] Importing System.Composition.TypedParts.dll.trap.gz (638 of 691)
+[2021-11-19 11:07:29] Importing System.Data.SqlClient.dll.cil.trap.gz (639 of 691)
+[2021-11-19 11:07:29] Importing System.Data.SqlClient.dll.trap.gz (640 of 691)
+[2021-11-19 11:07:29] Importing System.IdentityModel.Tokens.Jwt.dll.cil.trap.gz (641 of 691)
+[2021-11-19 11:07:29] Importing System.IdentityModel.Tokens.Jwt.dll.trap.gz (642 of 691)
+[2021-11-19 11:07:30] Importing System.Interactive.Async.dll.cil.trap.gz (643 of 691)
+[2021-11-19 11:07:30] Importing System.Interactive.Async.dll.trap.gz (644 of 691)
+[2021-11-19 11:07:30] Importing System.Runtime.CompilerServices.Unsafe.dll.cil.trap.gz (645 of 691)
+[2021-11-19 11:07:30] Importing System.Runtime.CompilerServices.Unsafe.dll.trap.gz (646 of 691)
+[2021-11-19 11:07:30] Importing System.Security.AccessControl.dll.cil.trap.gz (647 of 691)
+[2021-11-19 11:07:30] Importing System.Security.AccessControl.dll.trap.gz (648 of 691)
+[2021-11-19 11:07:30] Importing System.Security.Cryptography.Xml.dll.cil.trap.gz (649 of 691)
+[2021-11-19 11:07:30] Importing System.Security.Cryptography.Xml.dll.trap.gz (650 of 691)
+[2021-11-19 11:07:30] Importing System.Security.Principal.Windows.dll.cil.trap.gz (651 of 691)
+[2021-11-19 11:07:30] Importing System.Security.Principal.Windows.dll.trap.gz (652 of 691)
+[2021-11-19 11:07:30] Importing System.Spatial.dll.cil.trap.gz (653 of 691)
+[2021-11-19 11:07:30] Importing System.Spatial.dll.trap.gz (654 of 691)
+[2021-11-19 11:07:30] Importing System.Text.Encodings.Web.dll.cil.trap.gz (655 of 691)
+[2021-11-19 11:07:30] Importing System.Text.Encodings.Web.dll.trap.gz (656 of 691)
+[2021-11-19 11:07:30] Importing Microsoft.WindowsAzure.Storage.dll.cil.trap.gz (657 of 691)
+[2021-11-19 11:07:30] Importing Microsoft.WindowsAzure.Storage.dll.trap.gz (658 of 691)
+[2021-11-19 11:07:31] Importing AuthorController.cs.trap.gz (659 of 691)
+[2021-11-19 11:07:31] Importing BookController.cs.trap.gz (660 of 691)
+[2021-11-19 11:07:31] Importing CustomerController.cs.trap.gz (661 of 691)
+[2021-11-19 11:07:31] Importing HomeController.cs.trap.gz (662 of 691)
+[2021-11-19 11:07:31] Importing LendController.cs.trap.gz (663 of 691)
+[2021-11-19 11:07:31] Importing ReturnController.cs.trap.gz (664 of 691)
+[2021-11-19 11:07:31] Importing DbInitializer.cs.trap.gz (665 of 691)
+[2021-11-19 11:07:31] Importing IAuthorRepository.cs.trap.gz (666 of 691)
+[2021-11-19 11:07:31] Importing IBookRepository.cs.trap.gz (667 of 691)
+[2021-11-19 11:07:31] Importing ICustomerRepository.cs.trap.gz (668 of 691)
+[2021-11-19 11:07:31] Importing IRepository.cs.trap.gz (669 of 691)
+[2021-11-19 11:07:31] Importing LibraryDbContext.cs.trap.gz (670 of 691)
+[2021-11-19 11:07:31] Importing Author.cs.trap.gz (671 of 691)
+[2021-11-19 11:07:31] Importing Book.cs.trap.gz (672 of 691)
+[2021-11-19 11:07:31] Importing Customer.cs.trap.gz (673 of 691)
+[2021-11-19 11:07:31] Importing AuthorRepository.cs.trap.gz (674 of 691)
+[2021-11-19 11:07:31] Importing BookRepository.cs.trap.gz (675 of 691)
+[2021-11-19 11:07:31] Importing CustomerRepository.cs.trap.gz (676 of 691)
+[2021-11-19 11:07:31] Importing Repository.cs.trap.gz (677 of 691)
+[2021-11-19 11:07:31] Importing LibraryManagement.csproj.trap.gz (678 of 691)
+[2021-11-19 11:07:31] Importing ErrorViewModel.cs.trap.gz (679 of 691)
+[2021-11-19 11:07:31] Importing Program.cs.trap.gz (680 of 691)
+[2021-11-19 11:07:31] Importing Startup.cs.trap.gz (681 of 691)
+[2021-11-19 11:07:31] Importing BookViewModel.cs.trap.gz (682 of 691)
+[2021-11-19 11:07:31] Importing CreateAuthorViewModel.cs.trap.gz (683 of 691)
+[2021-11-19 11:07:31] Importing CustomerViewModel.cs.trap.gz (684 of 691)
+[2021-11-19 11:07:31] Importing HomeViewModel.cs.trap.gz (685 of 691)
+[2021-11-19 11:07:31] Importing LendViewModel.cs.trap.gz (686 of 691)
+[2021-11-19 11:07:31] Importing .NETCoreApp,Version=v2.0.AssemblyAttributes.cs.trap.gz (687 of 691)
+[2021-11-19 11:07:31] Importing LibraryManagement.AssemblyInfo.cs.trap.gz (688 of 691)
+[2021-11-19 11:07:31] Importing LibraryManagement.dll.trap.gz (689 of 691)
+[2021-11-19 11:07:31] Importing LibraryManagement.csproj.nuget.g.props.trap.gz (690 of 691)
+[2021-11-19 11:07:31] Importing sourceLocationPrefix.trap.gz (691 of 691)
+[2021-11-19 11:07:32] Merging 1 fragment for assemblies.
+[2021-11-19 11:07:32] Merging 1 fragment for containerparent.
+[2021-11-19 11:07:32] Merging 1 fragment for files.
+[2021-11-19 11:07:32] Merging 1 fragment for namespaces.
+[2021-11-19 11:07:32] Merging 1 fragment for parent_namespace.
+[2021-11-19 11:07:32] Merging 7 fragments for metadata_handle.
+[2021-11-19 11:07:33] Merging 2 fragments for cil_type.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_class.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_type_location.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_attribute.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_sealed.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_base_class.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_abstract.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_attribute_positional_argument.
+[2021-11-19 11:07:33] Merging 2 fragments for cil_public.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_base_interface.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_interface.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_implements.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_attribute_named_argument.
+[2021-11-19 11:07:33] Merging 1 fragment for cil_enum_underlying_type.
+[2021-11-19 11:07:33] Merging 3 fragments for cil_method.
+[2021-11-19 11:07:33] Merging 3 fragments for cil_method_source_declaration.
+[2021-11-19 11:07:34] Merging 2 fragments for cil_method_location.
+[2021-11-19 11:07:34] Merging 2 fragments for cil_method_implementation.
+[2021-11-19 11:07:34] Merging 26 fragments for cil_instruction.
+[2021-11-19 11:07:35] Merging 11 fragments for cil_access.
+[2021-11-19 11:07:36] Merging 2 fragments for cil_method_stack_size.
+[2021-11-19 11:07:36] Merging 2 fragments for cil_protected.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_specialname.
+[2021-11-19 11:07:36] Merging 2 fragments for cil_jump.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_virtual.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_value.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_static.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_private.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_handler.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_handler_type.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_type_annotation.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_parameter_out.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_newslot.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_switch.
+[2021-11-19 11:07:36] Merging 1 fragment for folders.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_type_parameter.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_field.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_property.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_getter.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_internal.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_setter.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_type_argument.
+[2021-11-19 11:07:36] Merging 1 fragment for cil_custom_modifiers.
+[2021-11-19 11:07:37] Merging 5 fragments for cil_parameter.
+[2021-11-19 11:07:37] Merging 2 fragments for cil_local_variable.
+[2021-11-19 11:07:37] Merging 1 fragment for cil_array_type.
+[2021-11-19 11:07:37] Merging 1 fragment for typerefs.
+[2021-11-19 11:07:37] Merging 1 fragment for typeref_type.
+[2021-11-19 11:07:37] Merging 1 fragment for file_extraction_mode.
+[2021-11-19 11:07:37] Merging 1 fragment for types.
+[2021-11-19 11:07:37] Merging 1 fragment for modifiers.
+[2021-11-19 11:07:37] Merging 6 fragments for has_modifiers.
+[2021-11-19 11:07:37] Merging 1 fragment for type_location.
+[2021-11-19 11:07:37] Merging 1 fragment for nullability.
+[2021-11-19 11:07:37] Merging 1 fragment for nullability_parent.
+[2021-11-19 11:07:37] Merging 3 fragments for type_nullability.
+[2021-11-19 11:07:37] Merging 1 fragment for fields.
+[2021-11-19 11:07:37] Merging 1 fragment for field_location.
+[2021-11-19 11:07:37] Merging 1 fragment for constructors.
+[2021-11-19 11:07:37] Merging 1 fragment for constructor_location.
+[2021-11-19 11:07:37] Merging 3 fragments for params.
+[2021-11-19 11:07:37] Merging 3 fragments for param_location.
+[2021-11-19 11:07:38] Merging 1 fragment for properties.
+[2021-11-19 11:07:38] Merging 1 fragment for accessors.
+[2021-11-19 11:07:38] Merging 1 fragment for accessor_location.
+[2021-11-19 11:07:38] Merging 1 fragment for property_location.
+[2021-11-19 11:07:38] Merging 2 fragments for methods.
+[2021-11-19 11:07:38] Merging 2 fragments for method_location.
+[2021-11-19 11:07:38] Merging 1 fragment for attributes.
+[2021-11-19 11:07:38] Merging 1 fragment for attribute_location.
+[2021-11-19 11:07:38] Merging 1 fragment for nested_types.
+[2021-11-19 11:07:38] Merging 1 fragment for constant_value.
+[2021-11-19 11:07:38] Merging 1 fragment for expressions.
+[2021-11-19 11:07:38] Merging 1 fragment for expr_parent_top_level.
+[2021-11-19 11:07:38] Merging 1 fragment for expr_location.
+[2021-11-19 11:07:38] Merging 1 fragment for expr_compiler_generated.
+[2021-11-19 11:07:38] Merging 1 fragment for numlines.
+[2021-11-19 11:07:38] Merging 1 fragment for compiler_generated.
+[2021-11-19 11:07:38] Merging 1 fragment for explicitly_implements.
+[2021-11-19 11:07:38] Merging 1 fragment for expr_parent.
+[2021-11-19 11:07:38] Merging 1 fragment for expr_value.
+[2021-11-19 11:07:38] Merging 1 fragment for overrides.
+[2021-11-19 11:07:38] Merging 1 fragment for enum_underlying_type.
+[2021-11-19 11:07:38] Merging 1 fragment for expr_argument_name.
+[2021-11-19 11:07:38] Merging 1 fragment for type_parameter_constraints.
+[2021-11-19 11:07:38] Merging 1 fragment for type_parameters.
+[2021-11-19 11:07:38] Merging 1 fragment for type_annotation.
+[2021-11-19 11:07:38] Merging 1 fragment for specific_type_parameter_constraints.
+[2021-11-19 11:07:38] Merging 1 fragment for destructors.
+[2021-11-19 11:07:38] Merging 1 fragment for destructor_location.
+[2021-11-19 11:07:38] Merging 1 fragment for delegate_return_type.
+[2021-11-19 11:07:38] Merging 1 fragment for constructed_generic.
+[2021-11-19 11:07:38] Merging 1 fragment for type_arguments.
+[2021-11-19 11:07:38] Merging 1 fragment for general_type_parameter_constraints.
+[2021-11-19 11:07:38] Merging 1 fragment for indexers.
+[2021-11-19 11:07:38] Merging 1 fragment for indexer_location.
+[2021-11-19 11:07:38] Merging 1 fragment for array_element_type.
+[2021-11-19 11:07:38] Merging 1 fragment for implement.
+[2021-11-19 11:07:38] Merging 1 fragment for nullable_underlying_type.
+[2021-11-19 11:07:38] Merging 1 fragment for extend.
+[2021-11-19 11:07:38] Merging 1 fragment for cil_event.
+[2021-11-19 11:07:38] Merging 1 fragment for cil_adder.
+[2021-11-19 11:07:38] Merging 1 fragment for cil_remover.
+[2021-11-19 11:07:38] Merging 1 fragment for events.
+[2021-11-19 11:07:38] Merging 1 fragment for event_location.
+[2021-11-19 11:07:38] Merging 1 fragment for event_accessors.
+[2021-11-19 11:07:38] Merging 1 fragment for event_accessor_location.
+[2021-11-19 11:07:38] Merging 1 fragment for cil_security.
+[2021-11-19 11:07:38] Merging 1 fragment for cil_parameter_in.
+[2021-11-19 11:07:38] Merging 1 fragment for cil_pointer_type.
+[2021-11-19 11:07:38] Merging 1 fragment for pointer_referent_type.
+[2021-11-19 11:07:38] Merging 1 fragment for cil_handler_filter.
+[2021-11-19 11:07:38] Merging 1 fragment for operators.
+[2021-11-19 11:07:38] Merging 1 fragment for operator_location.
+[2021-11-19 11:07:38] Merging 1 fragment for locations_default.
+[2021-11-19 11:07:38] Merging 1 fragment for tuple_underlying_type.
+[2021-11-19 11:07:38] Merging 1 fragment for tuple_element.
+[2021-11-19 11:07:38] Merging 1 fragment for specific_type_parameter_nullability.
+[2021-11-19 11:07:39] Merging 1 fragment for using_directive_location.
+[2021-11-19 11:07:39] Merging 1 fragment for using_namespace_directives.
+[2021-11-19 11:07:39] Merging 1 fragment for type_mention.
+[2021-11-19 11:07:39] Merging 1 fragment for type_mention_location.
+[2021-11-19 11:07:39] Merging 1 fragment for expr_call.
+[2021-11-19 11:07:39] Merging 1 fragment for statements.
+[2021-11-19 11:07:39] Merging 1 fragment for stmt_parent_top_level.
+[2021-11-19 11:07:39] Merging 1 fragment for stmt_parent.
+[2021-11-19 11:07:39] Merging 1 fragment for expr_access.
+[2021-11-19 11:07:39] Merging 1 fragment for stmt_location.
+[2021-11-19 11:07:39] Merging 1 fragment for localvars.
+[2021-11-19 11:07:39] Merging 1 fragment for localvar_location.
+[2021-11-19 11:07:39] Merging 1 fragment for expr_argument.
+[2021-11-19 11:07:39] Merging 1 fragment for namespace_declarations.
+[2021-11-19 11:07:39] Merging 1 fragment for namespace_declaration_location.
+[2021-11-19 11:07:39] Merging 1 fragment for parent_namespace_declaration.
+[2021-11-19 11:07:39] Merging 1 fragment for commentblock.
+[2021-11-19 11:07:39] Merging 1 fragment for commentblock_location.
+[2021-11-19 11:07:39] Merging 1 fragment for commentblock_binding.
+[2021-11-19 11:07:39] Merging 1 fragment for commentline.
+[2021-11-19 11:07:39] Merging 1 fragment for commentline_location.
+[2021-11-19 11:07:39] Merging 1 fragment for commentblock_child.
+[2021-11-19 11:07:39] Merging 1 fragment for foreach_stmt_info.
+[2021-11-19 11:07:39] Merging 1 fragment for foreach_stmt_desugar.
+[2021-11-19 11:07:39] Merging 1 fragment for xmllocations.
+[2021-11-19 11:07:39] Merging 1 fragment for xmlElements.
+[2021-11-19 11:07:39] Merging 1 fragment for xmlAttrs.
+[2021-11-19 11:07:39] Merging 1 fragment for xmlChars.
+[2021-11-19 11:07:39] Merging 1 fragment for xmlEncoding.
+[2021-11-19 11:07:39] Merging 1 fragment for compilations.
+[2021-11-19 11:07:39] Merging 1 fragment for compilation_assembly.
+[2021-11-19 11:07:39] Merging 1 fragment for compilation_args.
+[2021-11-19 11:07:39] Merging 1 fragment for compilation_compiling_files.
+[2021-11-19 11:07:39] Merging 1 fragment for compilation_referencing_files.
+[2021-11-19 11:07:39] Merging 1 fragment for compilation_time.
+[2021-11-19 11:07:39] Merging 1 fragment for compilation_finished.
+[2021-11-19 11:07:39] Merging 1 fragment for xmlNs.
+[2021-11-19 11:07:39] Merging 1 fragment for xmlHasNs.
+[2021-11-19 11:07:39] Merging 1 fragment for sourceLocationPrefix.
+[2021-11-19 11:07:39] Saving string and id pools to disk.
+[2021-11-19 11:07:40] Finished importing trap files.
+[2021-11-19 11:07:40] Pausing evaluation to close the cache at sequence stamp o+3
+[2021-11-19 11:07:40] The disk cache is freshly trimmed; leave it be.
+[2021-11-19 11:07:40] Unpausing evaluation
+[2021-11-19 11:07:41] Plumbing command codeql dataset import completed.
+[2021-11-19 11:07:41] [PROGRESS] database finalize> TRAP import complete (40.9s).
+[2021-11-19 11:07:41] Running plumbing command: codeql database cleanup --mode=normal -- C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db
+[2021-11-19 11:07:41] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2021-11-19 11:07:41] [PROGRESS] database cleanup> TRAP files cleaned up (697ms).
+[2021-11-19 11:07:41] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2021-11-19 11:07:41] [PROGRESS] database cleanup> Scratch directory cleaned up (3ms).
+[2021-11-19 11:07:41] Running plumbing command: codeql dataset cleanup --mode=normal -- C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp
+[2021-11-19 11:07:41] [PROGRESS] dataset cleanup> Cleaning up dataset in C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp.
+[2021-11-19 11:07:41] Trimming disk cache at C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp\default\cache in mode normal.
+[2021-11-19 11:07:41] Sequence stamp origin is -6521649874980638679
+[2021-11-19 11:07:41] Pausing evaluation to zealously trim disk at sequence stamp o+0
+[2021-11-19 11:07:41] Unpausing evaluation
+[2021-11-19 11:07:41] Trimming completed (4ms): Trimmed disposable data from cache.
+[2021-11-19 11:07:41] Pausing evaluation to close the cache at sequence stamp o+1
+[2021-11-19 11:07:41] The disk cache is freshly trimmed; leave it be.
+[2021-11-19 11:07:41] Unpausing evaluation
+[2021-11-19 11:07:41] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2021-11-19 11:07:41] [PROGRESS] dataset cleanup> Finalizing dataset in C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp
+[2021-11-19 11:07:41] [DETAILS] dataset cleanup> Finished deleting ID pool from C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db\db-csharp (35ms).
+[2021-11-19 11:07:41] Plumbing command codeql dataset cleanup completed.
+[2021-11-19 11:07:41] Plumbing command codeql database cleanup completed with status 0.
+[2021-11-19 11:07:41] Plumbing command codeql database finalize completed.
+[2021-11-19 11:07:41] [PROGRESS] database create> Successfully created database at C:\Users\PenTester02\Downloads\Course.LibraryManagement-master\Course.LibraryManagement-master\LibraryManagement\csharp-db.
+[2021-11-19 11:07:41] Terminating normally.
